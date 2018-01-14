@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		link(rel="stylesheet", href="./css/reset.min.css")
+		link(rel="stylesheet", href="./css/bootstrap.css")
+		link(rel="stylesheet", href="./css/app.css")
+		link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Montserrat")
+		title Nicolas "0swin" Roger
+
+	body
+		.navbar.navbar-dark.fixed-top.navbar-expand-lg
+			include _navbar.pug
+		section#hero.flex1
+			// hero oswin logo
+			.pattern-overlay
+			video(loop, muted, autoplay, class="fullscreen-bg-video", preload="auto")
+				<source src="rsrc/video/bg2.webm" type="video/webm">
+				<source src="rsrc/video/bg2.mp4" type="video/mp4">
+			// #arrow
+				.fa.fa-arrow-down(href="#projets", aria-hidden="true")
+
+		section#projets
+			.container
+				- var behanceimage = "rsrc/pictures/behance/"
+				mixin behance(image,lien)
+					.col-lg-6
+						.instagram-post
+							a(href= lien target='_blank')
+								img.post-image(src= behanceimage + image)
+				h1 Projets
+				.row.instagram
+					+behance("logoreveal.jpg", "https://www.behance.net/gallery/58334281/logo-reveal")
+					+behance("owl.jpg","https://www.behance.net/gallery/51795259/OWL-Associative-Radio")
+					+behance("inmagazine.jpg","https://www.behance.net/gallery/58388309/IN-Magazine")
+					+behance("pronto.jpg","https://www.behance.net/gallery/58404367/Pronto-Le-mnage-espresso?")
+					
+		section#one-shots
+			.container
+				- var instagramimage = "rsrc/pictures/instagram/"
+				mixin insta(image,lien)
+					.col-lg-3.col-6
+						a(href= lien target='_blank')
+							img(src= instagramimage + image).instagram-post
+				h1.one-shots One-shots
+				.row.instagram
+					+insta("fallenolympus.jpg", "https://www.instagram.com/p/BVm_AwQHkUR/")
+					// +insta("virus.jpg", "https://www.instagram.com/p/BVhpin2nQfu/")
+					+insta("pandora.jpg", "https://www.instagram.com/p/BVc3uv5nNbR/")
+					+insta("badlands.jpg", "https://www.instagram.com/p/BVXnVvEnfNX/")
+					// +insta("rotation.jpg", "https://www.instagram.com/p/BVAxr_cn4nR/")
+					+insta("sunwave.jpg", "https://www.instagram.com/p/BU7kPK9lUH_/")
+					+insta("slimeyslide.jpg", "https://www.instagram.com/p/BTGPj4wFfA6/")
+					+insta("desert.jpg", "https://www.instagram.com/p/BSrTK8ilEwc/")
+					+insta("spaceminded.jpg", "https://www.instagram.com/p/BSpIgm7lgg-/")
+					// +insta("cmyktemple.jpg","https://www.instagram.com/p/BQ5vjQaF0Kf/")
+					// +insta("cmyktotem.jpg","https://www.instagram.com/p/BQ3M0wVBlNV/")
+					+insta("gate.jpg", "https://www.instagram.com/p/BQ0rrORhgsC/")
+					// +insta("pokeball.jpg","https://www.instagram.com/p/BQyDyl0B_UK")
+					// +insta("crusoe.jpg", "https://www.instagram.com/p/BQvitPHByOQ/")
+					// +insta("sphere.jpg", "https://www.instagram.com/p/BQtVinGh4yE/")
+		section#a-propos
+			.container
+				h1 A propos
+				.aligner-au-centre-putain
+					.profile-card.align-middle
+						.row
+							.col-lg-4
+								img.avatar(src='rsrc/pictures/avatar.jpg')
+							.col-lg-8
+								p
+									h3 Nicolas "0swin" Roger
+								p Étudiant de 18 ans en deuxième année de direction artistique à e-artsup, je m'intéresse notamment au web, au design interactif et au motion design.
+								p
+									a(id="mail" href="mailto:nicolas.roger@0sw.in") nicolas.roger@0sw.in
+								p 06 33 50 96 73
+								a(href="cv.pdf" target='_blank') CV
+								span  - 
+								a(href="book.pdf" target='_blank') BOOK
+				a(href="#")
+					h1.circle-signature O
+	include _scripts.pug
