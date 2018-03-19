@@ -1,27 +1,18 @@
 body {
-  background-color: #657586;
-}
+  background-color: #657586; }
 
 html {
-  overflow-y: scroll;
-}
+  overflow-y: scroll; }
 
 a {
   color: #212529;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+  a:active {
+    text-decoration: none; }
+  a:visited {
+    text-decoration: none; }
 
 .navbar {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
@@ -31,34 +22,27 @@ a:visited {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 30px;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 .navbar-dark .navbar-brand {
   font-family: 'Montserrat';
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.9);
-  letter-spacing: 0.2rem;
-}
+  letter-spacing: 0.2rem; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #FBFCFE;
-}
+  color: rgba(255, 255, 255, 0.7); }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #FBFCFE; }
 
 .container {
   padding-left: 2rem;
-  padding-right: 2rem;
-}
+  padding-right: 2rem; }
 
 .flex1 {
   background-size: cover;
   background-position: center center;
-  height: 100vh;
-}
+  height: 100vh; }
 
 .pattern-overlay {
   position: absolute;
@@ -67,8 +51,7 @@ a:visited {
   opacity: 0.3;
   bottom: 0;
   background-image: url(../rsrc/pictures/pattern.png);
-  z-index: 1;
-}
+  z-index: 1; }
 
 .fullscreen-bg-video {
   position: absolute;
@@ -79,38 +62,31 @@ a:visited {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.fullscreen-bg-video source {
-  min-height: 100%;
-}
+  transform: translateY(-50%); }
+  .fullscreen-bg-video source {
+    min-height: 100%; }
 
 video {
   -o-object-fit: cover;
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 #projets {
   background-color: #2A2934;
   padding-top: 110px;
   padding-bottom: 110px;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 #one-shots {
   background-color: #4D5966;
   padding-top: 115px;
   padding-bottom: 115px;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 #a-propos {
   background-color: #657586;
   padding-top: 115px;
   padding-bottom: 115px;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 .aligner-au-centre-putain {
   width: 100%;
@@ -120,58 +96,45 @@ video {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .navbar-centered-content {
-  margin: auto;
-}
+  margin: auto; }
 
 .navbar-toggler {
   float: right;
-  border-color: transparent;
-}
+  border-color: transparent; }
 
 li.nav-item {
   text-align: center;
-  font-size: 0.8em;
-}
-
-li.nav-item .fa {
-  font-size: 1.2rem;
-}
+  font-size: 0.8em; }
+  li.nav-item .fa {
+    font-size: 1.2rem; }
 
 ul.navbar {
-  line-height: 20px;
-}
+  line-height: 20px; }
 
 a.nav-link {
   text-transform: uppercase;
-  letter-spacing: 3px;
-}
+  letter-spacing: 3px; }
 
 a.nav-link.fa {
   padding-left: 8px;
-  padding-right: 8px;
-}
+  padding-right: 8px; }
 
 .fa-pad-top {
-  padding-top: 13px;
-}
+  padding-top: 13px; }
 
 .navbar-expand-lg .navbar-nav .nav-link .fa-twitter {
-  padding-right: 0px;
-}
+  padding-right: 0px; }
 
 .carousel, .carousel-inner {
-  height: 100%;
-}
+  height: 100%; }
 
 .carousel-item, .carousel-item > img {
   height: 100%;
   width: 100%;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .instagram-post {
   -webkit-transition: all 0.2s ease-in-out;
@@ -179,18 +142,15 @@ a.nav-link.fa {
   transition: all 0.2s ease-in-out;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-decoration: none;
-}
-
-.instagram-post:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  position: relative;
-  z-index: 9998;
-  -webkit-box-shadow: 0 0px 75px #80A4AE;
-  box-shadow: 0 0px 75px #80A4AE;
-}
+  text-decoration: none; }
+  .instagram-post:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    position: relative;
+    z-index: 9998;
+    -webkit-box-shadow: 0 0px 75px #80A4AE;
+    box-shadow: 0 0px 75px #80A4AE; }
 
 h1 {
   font-size: 2em;
@@ -198,12 +158,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.8rem;
   font-family: 'Montserrat', sans-serif;
-  padding-bottom: 1.5rem;
-}
+  padding-bottom: 1.5rem; }
 
 #arrow {
-  width: 100%;
-}
+  width: 100%; }
 
 .fa-arrow-down {
   font-size: 2em;
@@ -212,8 +170,7 @@ h1 {
   padding: auto;
   left: 0;
   bottom: 3rem;
-  color: rgba(255, 255, 255, 0.7);
-}
+  color: rgba(255, 255, 255, 0.7); }
 
 .btn-instagram {
   border-radius: 0;
@@ -221,52 +178,44 @@ h1 {
   border-color: #fff;
   background-color: transparent;
   text-align: center;
-  margin-top: 20px;
-}
-
-.btn-instagram:hover, .btn-instagram:active, .btn-instagram:visited {
-  border-radius: 0;
-  border-width: 1px;
-  border-color: #fff;
-  background-color: transparent;
-}
-
-.btn-instagram:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  position: relative;
-  z-index: 9998;
-  -webkit-box-shadow: 0 0px 75px #80A4AE;
-  box-shadow: 0 0px 75px #80A4AE;
-}
+  margin-top: 20px; }
+  .btn-instagram:hover, .btn-instagram:active, .btn-instagram:visited {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: transparent; }
+  .btn-instagram:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    position: relative;
+    z-index: 9998;
+    -webkit-box-shadow: 0 0px 75px #80A4AE;
+    box-shadow: 0 0px 75px #80A4AE; }
 
 .btn-instagram-icon {
-  padding: 0;
-}
+  padding: 0; }
 
 .avatar {
   height: auto;
   border-radius: 50%;
-  border: 0.6em solid #E5F1FA;
-}
+  border: 0.6em solid #E5F1FA; }
 
 .profile-card {
   max-width: 60vh;
   padding: 2em;
   background-color: #fff;
-  margin: auto;
-}
+  margin: auto; }
 
 h4 {
   color: rgba(252, 254, 255, 0.7);
   text-align: center;
   margin-top: 62vh;
-  text-shadow: 0 0 3px rgba(213, 229, 233, 0.82), 0 0 10px #b3cbd2;
-}
+  text-shadow: 0 0 3px rgba(213, 229, 233, 0.82), 0 0 10px #b3cbd2; }
 
 .circle-signature {
   padding-top: 0.8em;
   text-align: center;
-  font-size: 3.5em;
-}
+  font-size: 3.5em; }
+
+/*# sourceMappingURL=app.css.map */
