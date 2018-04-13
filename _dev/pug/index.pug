@@ -1,0 +1,43 @@
+extends _layout
+
+block content
+	section#hero.flex1
+		.pattern-overlay
+		video(loop, muted, autoplay, class="fullscreen-bg-video", preload="auto")
+			source(src= document_root + "rsrc/video/bg2.webm", type="video/webm")
+			source(src= document_root + "rsrc/video/bg2.mp4", type="video/mp4")
+
+	section#projets
+		.container
+				- var projectThumbnailImages = document_root + "rsrc/pictures/projects-thumbnails/"
+				mixin projects-thumbnails(image,lien)
+					.col-lg-6
+						.instagram-post
+							a(href= lien)
+								img.post-image(src= projectThumbnailImages + image)
+				h1 Projets
+				.row.instagram
+
+					+projects-thumbnails("logoreveal.jpg")
+					+projects-thumbnails("owl.jpg")
+					+projects-thumbnails("inmagazine.jpg", document_root + "in")
+					+projects-thumbnails("pronto.jpg")
+
+	section#a-propos
+		.container
+			h1 À propos
+			.row
+				.col-md-3
+				.col-md-6
+					.profile-card.align-middle
+						.row
+							.col-lg-4
+								img.avatar(src= document_root + 'rsrc/pictures/avatar.jpg')
+							.col-lg-8
+								p
+									h3 Nicolas "0swin" Roger
+								p Étudiant de 18 ans en deuxième année de direction artistique à e-artsup, je m'intéresse notamment au web, au design interactif et au motion design.
+								p
+									a(id="mail" href="mailto:me@0sw.in") me@0sw.in
+								p +33 6 33 50 96 73
+								a(href="cv.pdf" target='_blank') CV

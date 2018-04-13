@@ -1,0 +1,49 @@
+extends ../_layout.pug
+
+block content
+	div#project-banner(style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('img/thumbnail.png')")
+		div.text
+			h1.display-4 IN
+			h2 Et si le digital sauvait le&nbsp;print ?
+	div#project-tags
+		div.container
+			div.row.pt-3
+				div.col-md.pb-2
+					ul
+						li
+							b Projet
+						li Édition print
+						li Projet scolaire
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Outils
+						li Adobe Illustrator
+						li Adobe Photoshop
+						li Adobe InDesign
+				div.col-md.pb-2
+					ul
+						li.mb-1
+							b Collègues
+						li
+							a(href="https://www.behance.net/Alixbarral") Alix Barral
+						li
+							a(href="http://gladyspichollet.com/") Gladys Pichollet
+						li
+							a(href="https://www.behance.net/valentinvi5e22") Valentin Vildart
+						li Jeremy Lepioufle
+						li
+							a(href="http://lematoux.com/") Mathilde Bourbon
+						li
+							a(href="http://mel-lun.ml") Mélissa Luntadila
+	div#project-content
+		div.container.pt-4
+			div.row
+				div.col-md-1
+				div.col-md-10
+					img(src="img/in-logo.png", alt="IN Magazine logo").mx-auto
+					p Création d'un magazine sur le&nbsp;mariage entre le&nbsp;print et&nbsp;le&nbsp;digital.
+					img(src="img/mockup.png", alt="")
+					p Le magazine présente des&nbsp;interactions lorsque les&nbsp;pages et la&nbsp;couverture sont scannées avec une&nbsp;application de&nbsp;réalité virtuelle. 
+					video(loop, muted, autoplay, preload="auto")
+						source(src="img/animation.mp4", type="video/mp4")

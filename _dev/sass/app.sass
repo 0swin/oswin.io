@@ -1,3 +1,5 @@
+/* Mon CSS est en bordel me tape pas dessus quand tu regarderas mon code stp */
+
 body
     background-color: #657586
 
@@ -15,11 +17,11 @@ a
 		text-decoration: none
 
 .navbar
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%)
+    background: linear-gradient(to bottom, rgba(0,0,0,0.75) -30%,rgba(0,0,0,0) 90%)
     padding-left: 40px
     padding-right: 40px
     padding-top: 30px
-    padding-bottom: 30px
+    padding-bottom: 50px
 
 .navbar-dark .navbar-brand
 	font-family: 'Montserrat'
@@ -28,7 +30,7 @@ a
 	letter-spacing: 0.2rem
 
 .navbar-dark .navbar-nav .nav-link
-	color: rgba(255, 255, 255, 0.7)
+	color: rgba(255, 255, 255, 0.9)
 	&:hover
 		color: #FBFCFE
 
@@ -61,6 +63,9 @@ a
 	transform: translateY(-50%)
 	source
 		min-height: 100%
+@media screen and (min-width: 1920px)
+	.fullscreen-bg-video
+		width: 100%
 
 video
 	object-fit: cover
@@ -148,9 +153,6 @@ h1
 	font-family: 'Montserrat', sans-serif
 	padding-bottom: 1.5rem
 
-#arrow
-	width: 100%
-
 .fa-arrow-down
 	font-size: 2em
 	text-align: center
@@ -187,19 +189,51 @@ h1
 	border: 0.6em solid #E5F1FA
 
 .profile-card
-	max-width: 60vh
+	// max-width: 60vh
 	// max-height: 90vh
 	padding: 2em
 	background-color: #fff
 	margin: auto
 
-h4
-	color: rgba(#fcfeff, 0.7)
-	text-align: center
-	margin-top: 62vh
-	text-shadow: 0 0 3px rgba(#d5e5e9, 0.82), 0 0 10px #b3cbd2
-
 .circle-signature
 	padding-top: 0.8em
 	text-align: center
 	font-size: 3.5em
+
+#project-banner
+	background-size: cover!important
+	div.text
+		text-align: center
+		padding-top: 25vh
+		padding-bottom: 20vh
+		padding-left: 1em
+		padding-right: 1em
+		h1
+			color: rgba(255, 255, 255, 0.9)
+			padding-bottom: 0
+		h2
+			color: rgba(255, 255, 255, 0.8)
+			letter-spacing: 0.05em
+			word-spacing: 0.1em
+
+#project-tags
+	background-color: #2A2934
+	li
+		color: #ffffff
+		text-align: center
+	li b
+			margin-bottom: 60px
+			color: #ffffff
+	a
+		color: #ffffff
+		text-decoration: none
+
+#project-content
+	background-color: #ffffff
+	div.container
+		text-align: center
+		img
+			padding: 1.2em
+		p
+			font-size: 16px
+	padding-bottom: 5em
