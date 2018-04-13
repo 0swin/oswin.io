@@ -22,6 +22,7 @@ html(lang="en")
 			meta(name='twitter:image', content=document_root + 'rsrc/pictures/opengraphimage.jpg')
 		link(rel="stylesheet", href=document_root + "css/reset.min.css")
 		link(rel="stylesheet", href=document_root + "css/bootstrap.css")
+		link(rel="stylesheet", href=document_root + "css/plyr.css")
 		link(rel="stylesheet", href=document_root + "css/app.css")
 		link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Montserrat")
 		title Nicolas "0swin" Roger
@@ -32,4 +33,8 @@ body
 			include _navbar.pug
 	block content
 block scripts
-	include _scripts.pug
+	script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=', crossorigin='anonymous')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js', integrity='sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4', crossorigin='anonymous')
+	script(src=document_root + 'js/bootstrap.min.js')
+	script(src=document_root + 'js/plyr.min.js')
+	script(src='https://use.fontawesome.com/4ca25aadf9.js')

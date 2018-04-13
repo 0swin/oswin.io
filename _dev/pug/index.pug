@@ -10,18 +10,17 @@ block content
 	section#projets
 		.container
 				- var projectThumbnailImages = document_root + "rsrc/pictures/projects-thumbnails/"
-				mixin projects-thumbnails(image,lien)
+				mixin projects-thumbnails(nom)
 					.col-lg-6
 						.instagram-post
-							a(href= lien)
-								img.post-image(src= projectThumbnailImages + image)
+							a(href= nom )
+								img.post-image(src= document_root + nom + "/img/thumbnail.jpg" )
 				h1 Projets
 				.row.instagram
-
-					+projects-thumbnails("logoreveal.jpg")
-					+projects-thumbnails("owl.jpg")
-					+projects-thumbnails("inmagazine.jpg", document_root + "in")
-					+projects-thumbnails("pronto.jpg")
+					+projects-thumbnails("logo-reveal")
+					+projects-thumbnails("owl")
+					+projects-thumbnails("in")
+					+projects-thumbnails("pronto")
 
 	section#a-propos
 		.container
@@ -36,7 +35,7 @@ block content
 							.col-lg-8
 								p
 									h3 Nicolas "0swin" Roger
-								p Étudiant de 18 ans en deuxième année de direction artistique à e-artsup, je m'intéresse notamment au web, au design interactif et au motion design.
+								p Étudiant de 19 ans en deuxième année de direction artistique à e-artsup, je m'intéresse notamment au web, au design interactif et au motion design.
 								p
 									a(id="mail" href="mailto:me@0sw.in") me@0sw.in
 								p +33 6 33 50 96 73

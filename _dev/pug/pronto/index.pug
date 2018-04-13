@@ -1,0 +1,45 @@
+extends ../_layout.pug
+
+block content
+	div#project-banner(style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('img/thumbnail.jpg')")
+		div.text
+			h1.display-4 Pronto
+			h2 Le ménage espresso
+	div#project-tags
+		div.container
+			div.row.pt-3
+				div.col-md.pb-2
+					ul
+						li
+							b Projet
+						li UI Design
+						li Projet scolaire (HEC)
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Outils
+						li Adobe Experience Design
+						li Sketch
+						li Flinto
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Collègues
+						li
+							a(href="https://charliedelahousse.dyjix.fr") Charlie Delahousse
+						li
+							a(href="http://morganeprottengeier.fr/") Morgane Prottengeier
+	div#project-content
+		div.container.pt-4
+			div.row
+				div.col-md-1
+				div.col-md-10
+					img(src="img/logo.png", alt="")
+					p.
+						Conception d'une application de commande de ménage à domicile.
+						Réalisé à HEC dans le cadre du certificat Digital Entrepreneurship
+						avec des étudiants de HEC et de 42
+					img(src="img/app-pro.png", alt="")
+					p App pour les professionnels
+					img(src="img/app-consumer.png", alt="")
+					p App pour les clients

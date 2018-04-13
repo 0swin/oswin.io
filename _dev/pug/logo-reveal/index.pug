@@ -1,0 +1,31 @@
+extends ../_layout.pug
+
+block content
+	div#project-banner(style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('img/thumbnail.jpg')")
+		div.text
+			h1.display-4 Logo Reveal
+			h2.
+				&nbsp;
+	div#project-tags
+		div.container
+			div.row.pt-3
+				div.col-md.pb-2
+					ul
+						li
+							b Projet
+						li Identité visuelle
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Outils
+						li Adobe Illustrator
+						li Adobe After Effects
+						li Maxon CINEMA 4D
+	div#project-content
+		div.container.pt-4
+			div.row
+				div.col-md-1
+				div.col-md-10
+						p.pb-3 Animation de mon pseudonyme "0swin" Ce projet est l'aboutissement dela quête qu'a été la&nbsp;recherche de ma nouvelle identité visuelle
+						#player.plyr__video-embed
+							iframe(src='https://player.vimeo.com/video/239352764?loop=false&byline=false&portrait=false&title=false&speed=true&transparent=0&gesture=media', allowfullscreen='', allowtransparency='', allow='autoplay')
