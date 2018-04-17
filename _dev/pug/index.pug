@@ -26,17 +26,22 @@ block content
 		.container
 			h1 À propos
 			.row
-				.col-md-3
-				.col-md-6
+				.col-md-8.mx-auto
 					.profile-card.align-middle
 						.row
 							.col-lg-4
 								img.avatar(src= document_root + 'rsrc/pictures/avatar.jpg')
 							.col-lg-8
-								p
-									h3 Nicolas "0swin" Roger
+								h3 Nicolas "0swin" Roger
 								p Étudiant de 19 ans en deuxième année de direction artistique à e-artsup, je m'intéresse notamment au web, au design interactif et au motion design.
 								p
 									a(id="mail" href="mailto:me@0sw.in") me@0sw.in
+								//- p#mail
+								//- 	span.mail1
+								//- 		a#adressemail(href="#") me@0sw.in
+								//- 	span.mail2
+								//- 		a(href="mailto:me@0sw.in") m'envoyer un mail 
+								//- 	span.mail2 ou 
+								//- 		button.btn-link(onclick="copyPasteMail()") copier dans le presse papier
 								p +33 6 33 50 96 73
 								a(href="cv.pdf" target='_blank') CV
