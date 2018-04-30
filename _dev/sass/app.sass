@@ -1,10 +1,10 @@
 /* Mon CSS est en bordel me tape pas dessus quand tu regarderas mon code stp */
 
 @font-face
-  font-family: 'montserratmedium'
-  src: url('../fonts/montserrat-medium-webfont.woff2') format("woff2"), url('../fonts/montserrat-medium-webfont.woff') format("woff")
-  font-weight: normal
-  font-style: normal
+	font-family: 'montserratmedium'
+	src: url('../fonts/montserrat-medium-webfont.woff2') format("woff2"), url('../fonts/montserrat-medium-webfont.woff') format("woff")
+	font-weight: normal
+	font-style: normal
 
 body
 	background-color: #657586
@@ -18,17 +18,19 @@ a
 	text-decoration: none
 	&:hover
 		text-decoration: none
+		color: #1178f0
 	&:active
 		text-decoration: none
+		color: #1178f0
 	&:visited
 		text-decoration: none
 
 .navbar
-    background: linear-gradient(to bottom, rgba(0,0,0,0.75) -30%,rgba(0,0,0,0) 90%)
-    padding-left: 40px
-    padding-right: 40px
-    padding-top: 30px
-    padding-bottom: 50px
+	background: linear-gradient(to bottom, rgba(0,0,0,0.75) -30%,rgba(0,0,0,0) 90%)
+	padding-left: 40px
+	padding-right: 40px
+	padding-top: 30px
+	padding-bottom: 50px
 
 .navbar-dark .navbar-brand
 	// font-family: 'montserratmedium'
@@ -46,10 +48,10 @@ a
 	padding-right: 2rem
 
 .flex1
-    // background-image: url("../rsrc/pictures/img1.jpg")
-    background-size: cover
-    background-position: center center
-    height: 100vh
+		// background-image: url("../rsrc/pictures/img1.jpg")
+		background-size: cover
+		background-position: center center
+		height: 100vh
 
 .pattern-overlay
 	position: absolute
@@ -102,47 +104,47 @@ video
 	align-items: center;
 
 .navbar-centered-content
-    margin: auto
+	margin: auto
 
 .navbar-toggler
-    float: right
-    border-color: rgba(0,0,0,0)
+	float: right
+	border-color: rgba(0,0,0,0)
 
 li.nav-item
-    text-align: center
-    font-size: 0.8em
-    .fa
-        font-size: 1.2rem
+	text-align: center
+	font-size: 0.8em
+	.fa
+			font-size: 1.2rem
 
 ul.navbar
-    line-height: 20px
+	line-height: 20px
 
 a.nav-link
-    text-transform: uppercase
-    letter-spacing: 3px
+	text-transform: uppercase
+	letter-spacing: 3px
 
 a.nav-link.fa
 	padding-left: 8px
 	padding-right: 8px
 
 .fa-pad-top
-    padding-top: 13px
+	padding-top: 13px
 
 .navbar-expand-lg .navbar-nav .nav-link
-    .fa-twitter
-        padding-right: 0px
+	.fa-twitter
+		padding-right: 0px
 
 .carousel,.carousel-inner
-    height: 100%
+	height: 100%
 
 .carousel-item, .carousel-item>img
-    height: 100%
-    width: 100%
-    max-width: 100%
+	height: 100%
+	width: 100%
+	max-width: 100%
 
 .instagram-post
 	// transition: all 0.2s cubic-bezier(0, 0.48, 0.24, 1.5)
-	transition: all 0.2s ease-in-out
+	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55)
 	margin-top: 15px
 	margin-bottom: 15px
 	text-decoration: none
@@ -217,10 +219,10 @@ h1
 		padding-left: 1em
 		padding-right: 1em
 		h1
-			color: rgba(255, 255, 255, 0.9)
+			color: rgba(255, 255, 255, 1)
 			padding-bottom: 0
 		h2
-			color: rgba(255, 255, 255, 0.8)
+			color: rgba(255, 255, 255, 1)
 			letter-spacing: 0.05em
 			word-spacing: 0.1em
 
@@ -260,15 +262,30 @@ h1
 			border: 0
 			&:hover
 				text-decoration: none
-				color: #0056b3
+				color: #1178f0
 			&:active
 				text-decoration: none
+				color: #1178f0
 			&:visited
 				text-decoration: none
-		
 
+
+#mail-btn
+	&:hover
+		text-decoration: none
+		color: #1178f0
+	&:active
+		text-decoration: none
+		color: #1178f0
+
+		
 #mail:hover
 	.mail1
 		display: none
 	.mail2
 		display: inline
+
+.img-screenshot
+	padding: 0!important
+	border-radius: .625rem
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1)
