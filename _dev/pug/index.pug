@@ -1,0 +1,47 @@
+extends _layout
+
+block content
+	section#hero.flex1
+		.pattern-overlay
+		video(loop, muted, autoplay, class="fullscreen-bg-video", preload="auto")
+			source(src= document_root + "rsrc/video/bg2.webm", type="video/webm")
+			source(src= document_root + "rsrc/video/bg2.mp4", type="video/mp4")
+
+	section#projets
+		.container
+				- var projectThumbnailImages = document_root + "rsrc/pictures/projects-thumbnails/"
+				mixin projects-thumbnails(nom)
+					.col-lg-6
+						.instagram-post
+							a(href= nom )
+								img.post-image(src= document_root + nom + "/img/thumbnail.jpg" )
+				h1 Projets
+				.row.instagram
+					+projects-thumbnails("doctolib")
+					+projects-thumbnails("stocks")
+					+projects-thumbnails("in")
+					+projects-thumbnails("logo-reveal")
+					+projects-thumbnails("pronto")
+					+projects-thumbnails("owl")
+
+	section#a-propos
+		.container
+			h1 À propos
+			.row
+				.col-md-8.mx-auto
+					.profile-card.align-middle
+						.row
+							.col-lg-4
+								img.avatar(src= document_root + 'rsrc/pictures/avatar.jpg')
+							.col-lg-8
+								h3 Nicolas "0swin" Roger
+								p Étudiant de 19 ans en deuxième année de&nbsp;direction artistique à&nbsp;e-artsup, je m'intéresse notamment au&nbsp;web,&nbsp;au&nbsp;design interactif et au&nbsp;motion design.
+								p#mail
+									span.mail1
+										a#adressemail(href="#") me@0sw.in
+									span.mail2
+										a(href="mailto:me@0sw.in", ) m'envoyer un mail 
+									span.mail2 ou 
+										button.btn-link#mail-btn(data-clipboard-text="me@0sw.in") copier dans le presse papier
+								p +33 6 33 50 96 73
+								a(href="cv.pdf" target='_blank') CV

@@ -1,0 +1,59 @@
+extends ../_layout.pug
+
+block header-sharing
+	meta(property='og:title', content="Owl.")
+	meta(property='og:type', content='website')
+	meta(property="og:url" content=document_root + "owl")
+	meta(property="og:image" content=document_root + "owl/img/opengraphimage.jpg")
+	meta(property='og:image:width', content='1200')
+	meta(property='og:image:height', content='628')
+	meta(property='og:description', content="Les radios associatives, c'est chouette !")
+	meta(property='fb:app_id', content='966242223397117')
+	meta(name='twitter:card', content='summary_large_image')
+	meta(name='twitter:title', content='Owl.')
+	meta(name='twitter:description', content="Les radios associatives, c'est chouette !")
+	meta(name='twitter:url', content=document_root + "owl")
+	meta(name='twitter:image', content=document_root + 'owl/img/opengraphimage.jpg')
+block content
+	div#project-banner(style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('img/thumbnail.jpg')")
+		div.text
+			h1.display-4 owl.
+			h2 Les radios associatives, c'est chouette !
+	div#project-tags
+		div.container
+			div.row.pt-3
+				div.col-md.pb-2
+					ul
+						li
+							b Client
+						li Confédération Nationale des Radios Associatives (CNRA)
+				div.col-md.pb-2
+					ul
+						li
+							b Projet
+						li Identité visuelle
+						li Communication
+						li UI Design
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Outils
+						li Adobe Illustrator
+						li Adobe Experience Design
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Collègues
+						li
+							a(href="https://charliedelahousse.dyjix.fr") Charlie Delahousse
+						li
+							a(href="http://morganeprottengeier.fr/") Morgane Prottengeier
+	div#project-content
+		div.container.pt-4
+			div.row
+				div.col-md-1
+				div.col-md-10
+					p.mb-3 Réalisation d'une campagne de&nbsp;communication visant à rajeuniser et moderniser l'image des&nbsp;radios associatives, afin de&nbsp;faire l'acquisition d'un&nbsp;audimat plus jeune
+					video(loop, muted, autoplay, preload="auto")
+						source(src="img/video.mp4", type="video/mp4")
+					img(src="img/affiche.jpg", alt="")

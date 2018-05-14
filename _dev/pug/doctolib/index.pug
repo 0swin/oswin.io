@@ -1,0 +1,78 @@
+extends ../_layout.pug
+
+block header-sharing
+	meta(property='og:title', content="Doctolib")
+	meta(property='og:type', content='website')
+	meta(property="og:url" content=document_root + "doctolib")
+	meta(property="og:image" content=document_root + "doctolib/img/opengraphimage.jpg")
+	meta(property='og:image:width', content='1200')
+	meta(property='og:image:height', content='628')
+	meta(property='og:description', content="Identité graphique, étude de cas")
+	meta(property='fb:app_id', content='966242223397117')
+	meta(name='twitter:card', content='summary_large_image')
+	meta(name='twitter:title', content='Doctolib')
+	meta(name='twitter:description', content="Identité graphique, étude de cas")
+	meta(name='twitter:url', content=document_root + "doctolib")
+	meta(name='twitter:image', content=document_root + 'doctolib/img/opengraphimage.jpg')
+
+block content
+	div#project-banner(style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/thumbnail.jpg')")
+		div.text
+			h1.display-4 Doctolib
+			h2 Identité graphique, étude de&nbsp;cas
+	div#project-tags
+		div.container
+			div.row.pt-3
+				div.col-md.pb-2
+					ul
+						li
+							b Projet
+						li Client: Doctolib
+						li Projet scolaire
+				div.col-md.pb-2
+					ul
+						li.pb-1 
+							b Outils
+						li Adobe Illustrator
+						li Adobe InDesign
+				div.col-md
+					ul
+						li.mb-1
+							b Collègue
+						li
+							a(href="https://charliedelahousse.dyjix.fr/") Charlie Delahousse
+	div#project-content
+		div.container
+			div.row
+				div.col-md-1
+				div.col-md-10
+					img(src="img/header.png", alt="Doctolib Logo").mx-auto.p-0
+					img(src="img/nouvelle-identite-visuelle.png", alt="Une nouvelle identité visuelle")
+					p.text-justify.
+						Doctolib, start-up française à succès, propose un service de mise en relation entre médecins et patients. Fondée en 2013, elle possède de nombreux partenaires.
+						Au travers de cette refonte graphique que nous proposons, nous voulons mettre en avant l’un des aspects essentiels de Doctolib, trop souvent oublié: la proximité.
+						La liberté fournie par le service proposé ainsi que sa facilité d’usage étant déjà souligné dans le nom, il nous paru donc essentiel de mettre la proximité des nombreux praticiens en exergue.
+					img(src="img/avant-apres.png", alt="Avant Après").mx-auto
+					img.mt-4(src="img/logotype.png", alt="Logotype")
+					p.text-justify.
+						Le nouveau logotype proposé possède un but très simple : renforcer l'idée de proximité et de disponibilité des praticiens tout en affirmant la stabilité du système proposé. L'ancien logo, possédait une police d'écriture peu stable, ne permettant pas d'inspirer la confiance dans un milieu aussi important que celui de la santé.
+						La Montserrat illustre parfaitement cette idée de fiabilité et stabilité du système proposé. 
+					p.text-justify Le pin quant à lui, vient dynamiser le logo, tout en rappelant l'un des critères les plus important lors de la réservation d'un rendez-vous chez un médecin, la proximité.
+					p.text-justify Construit sur des bases solides et se voulant épuré, notre logo souligne la confiance que se doit d'inspirer Doctolib, à l'aide de procédés simples et impactants. 						
+					img(src="img/signification.png", alt="docteur + proximité + liberté").mx-auto.p-0
+					img(src="img/construction.gif", alt="Animation construction").mx-auto.p-0
+					img.mt-4(src="img/zone-protection.png", alt="Zone de protection")
+					img(src="img/zone-protection-2.png", alt="Zone de protection").mx-auto
+					img.mt-4(src="img/couleurs.png", alt="Couleurs")
+					p.text-justify Notre choix colorimétrique s'est arrêté sur trois couleurs significatives.
+					p.text-justify Un cyan, clair, couleur de la sagesse et de la communication, inspirant confiance et calme. Des valeurs des plus importantes dans le domaine dans lequel Doctolib opère.
+					p.text-justify Un jaune, couleur de la science et de la sécurité, renforçant par petite touche l'identité visuelle propre à Doctolib. Opèrant en contraste avec le cyan, elle permet une lisibilité accrue.
+					p.text-justify Enfin un bleu foncé pour le corps de texte. Il nous paraissait important de s'éloigner du noir, couleur trop souvent analysé comme péjorative et pouvant évoquer la mort. Ce bleu foncé était donc une solution à la fois sobre et élégante ainsi que symbolique. Assez foncé pour être aisé à lire peut importe les handicap visuel dont pourrait souffrir les uttlisateurs.
+					p.text-justify Ces couleurs permettent donc à la fois une identité visuelle impactante, lisible et accessible. 
+					img(src="img/couleurs-2.png", alt="Couleurs").mx-auto
+					img(src="img/typographie.png", alt="Typographies").mx-auto.p-0
+					img(src="img/mockup.png", alt="Mockup").mx-auto.p-0
+					
+					//- p Le magazine présente des&nbsp;interactions lorsque les&nbsp;pages et la&nbsp;couverture sont scannées avec une&nbsp;application de&nbsp;réalité virtuelle. 
+					//- video(loop, muted, autoplay, preload="auto")
+					//- 	source(src="img/animation.mp4", type="video/mp4")
