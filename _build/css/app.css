@@ -1,21 +1,24 @@
 /* Mon CSS est en bordel me tape pas dessus quand tu regarderas mon code stp */
 @font-face {
   font-family: 'montserratmedium';
+  font-display: auto;
   src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'fira_monoregular';
+  font-display: auto;
   src: url("../fonts/firamono-regular-webfont.woff2") format("woff2"), url("../fonts/firamono-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'montserratsemibold';
-  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+  font-display: auto;
+    font-display-src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+    font-display-font-weight: normal;
+    font-display-font-style: normal; }
 
 body {
   background-color: #657586;
