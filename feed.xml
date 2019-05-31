@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Test Website</title>
+    <link href="/feed.xml" rel="self" />
+    <link href="" />
+    <updated>2019-05-31T14:23:02+02:00</updated>
+    <author>
+        <name>oswn</name>
+    </author>
+    <id></id>
+
+    <entry>
+        <title>BnF</title>
+        <author>
+            <name>oswn</name>
+        </author>
+        <link href="/bnf.html"/>
+        <id>/bnf.html</id>
+
+        <updated>2019-05-31T14:16:27+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="/media/posts/7/thumbnail-bnf.png" alt="" />
+                    Heading 2Heading 3Heading 4Code Yes
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="/media/posts/7/thumbnail-bnf.png" alt="" />
+                <h2 id="mcetoc_1dc6t2ph10">Heading 2</h2>
+<h3 id="mcetoc_1dc6t2rl51">Heading 3</h3>
+<h4 id="mcetoc_1dc6t2tp52">Heading 4</h4>
+<p><code>Code</code></p>
+<blockquote>
+<p>Yes</p>
+</blockquote>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Futur en Seine</title>
+        <author>
+            <name>oswn</name>
+        </author>
+        <link href="/futur-en-seine.html"/>
+        <id>/futur-en-seine.html</id>
+
+        <updated>2019-05-29T11:30:49+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="/media/posts/6/thumbnail.png" alt="" />
+                    dqddddq
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="/media/posts/6/thumbnail.png" alt="" />
+                dqddddq
+            ]]>
+        </content>
+    </entry>
+</feed>

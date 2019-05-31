@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/bnf.html</loc>
+<lastmod>2019-05-31T14:16:27+02:00</lastmod>
+<image:image>
+<image:loc>/media/posts/7/thumbnail-bnf.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/futur-en-seine.html</loc>
+<lastmod>2019-05-29T11:30:49+02:00</lastmod>
+<image:image>
+<image:loc>/media/posts/6/thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>

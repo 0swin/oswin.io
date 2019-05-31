@@ -1,0 +1,43 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Test Website",
+    "description": "",
+    "home_page_url": "",
+    "feed_url": "/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "oswn"
+    },
+    "items": [
+        {
+            "id": "/bnf.html",
+            "url": "/bnf.html",
+            "title": "BnF",
+            "summary": "Heading 2Heading 3Heading 4Code Yes",
+            "content_html": "<h2 id=\"mcetoc_1dc6t2ph10\">Heading 2</h2>\n<h3 id=\"mcetoc_1dc6t2rl51\">Heading 3</h3>\n<h4 id=\"mcetoc_1dc6t2tp52\">Heading 4</h4>\n<p><code>Code</code></p>\n<blockquote>\n<p>Yes</p>\n</blockquote>",
+            "image": "/media/posts/7/thumbnail-bnf.png",
+            "author": {
+                "name": "oswn"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-29T13:35:57+02:00",
+            "date_modified": "2019-05-31T14:16:27+02:00"
+        },
+        {
+            "id": "/futur-en-seine.html",
+            "url": "/futur-en-seine.html",
+            "title": "Futur en Seine",
+            "summary": "dqddddq",
+            "content_html": "dqddddq",
+            "image": "/media/posts/6/thumbnail.png",
+            "author": {
+                "name": "oswn"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-28T22:40:02+02:00",
+            "date_modified": "2019-05-29T11:30:49+02:00"
+        }
+    ]
+}
