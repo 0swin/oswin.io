@@ -51,7 +51,7 @@ blockquote::before { margin-left: -.85em; font-size: 3rem; line-height: 0.75; di
 
 .badges { padding-bottom: 0.4rem; list-style: none; padding-left: 0; }
 
-.badges .badge a { color: #FFF !important; }
+.badges .badge { color: #FFF !important; margin-right: 0.3rem; background-color: rgba(0, 0, 0, 0.35); }
 
 .featureImage { width: calc(100% + 6rem); margin-top: 2rem; background-size: cover; background-position: bottom; margin-left: -3rem; padding-top: calc(100%/2); }
 
