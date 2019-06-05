@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Test Website</title>
+    <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-05-31T14:39:41+02:00</updated>
+    <updated>2019-06-05T15:52:03+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="/bnf.html"/>
         <id>/bnf.html</id>
 
-        <updated>2019-05-31T14:16:27+02:00</updated>
+        <updated>2019-06-05T15:11:00+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumbnail-bnf.png" alt="" />
@@ -34,6 +34,11 @@
 <blockquote>
 <p>Yes</p>
 </blockquote>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="/media/posts/7/gallery/image-24.png" ><img src="/media/posts/7/gallery/image-24-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/7/gallery/image-23.png" ><img src="/media/posts/7/gallery/image-23-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/7/gallery/image-22.png" ><img src="/media/posts/7/gallery/image-22-thumbnail.png" alt="" width="240" height="240"></a></figure>
+</div>
             ]]>
         </content>
     </entry>

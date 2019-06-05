@@ -1,7 +1,7 @@
 *
-    --text: #3B3B3B
-    --highlight: #4fc6fa
-    transition: padding 0.3s
+  --text: #3B3B3B
+  --highlight: #4fc6fa
+  transition: padding 0.3s
     
 // *
 //     outline: solid 0.25rem hsla(210, 100%, 50%, 0.1) !important
@@ -9,77 +9,113 @@
 //     filter: none !important
 
 img
-    height: auto
-    max-width: 100%
-    vertical-align: top
+  height: auto
+  max-width: 100%
+  vertical-align: top
+
+.visible
+  transform: translateX(0%)
+  transition: all 0.3s ease-out
+
+.trigger
+	position: relative
+	z-index: 2
+	margin: 0
+	float: right
+	margin-top: 3rem
+	margin-right: 3rem
+  padding: 0
+  background: 0
+	@media screen and (min-width: 767px)
+		display: none
+
+a.logo
+  font-family: 'Montserrat'!important
+  font-weight: bold
+  font-size: 2rem
+  color: var(--text)
+  text-decoration: none!important
+  &:active, &:hover, &:focus
+    color: var(--text)!important
+    text-decoration: none!important
 
 nav
   height: 100vh
   padding: 0!important
   margin: 0!important
+  background: #ffffff
   @media screen and (max-width: 767px)
-    position: fixed
+    position: absolute !important
     top: 0
     left: 0
+    transform: translateX(-100%)
+    transition: all 0.3s ease-out
     z-index: 1
-    width: 100vw
-    height: 100vh
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18)
+    a.logo
+      text-align: center
   .nav-container
-      font-family: 'Work Sans'
-      font-weight: 600
-      height: 100vh
-      display: flex
-      flex-direction: column
-      padding: 3rem 0 3rem 3rem !important
-      #logo
-          font-family: 'Montserrat'!important
-          font-weight: bold
-          font-size: 2rem
+    position: fixed
+    font-family: 'Work Sans'
+    font-weight: 600
+    height: 100vh
+    width: 100%
+    display: flex
+    flex-direction: column
+    padding: 3rem 0 3rem 3rem
+    top: 0
+    @media screen and (max-width: 767px)
+      padding: 3rem
+    ul
+      line-height: 1.8
+      color: var(--text)
+      list-style: none
+      padding-left: 0
+      text-transform: lowercase
+      .nom
+        font-weight: 800
+      li
+        a
+          text-decoration: underline
           color: var(--text)
-      ul
-          line-height: 1.8
-          color: var(--text)
-          list-style: none
-          padding-left: 0
-          text-transform: lowercase
-          .nom
-              font-weight: 800
-          li
-              a
-                  text-decoration: underline
-                  color: var(--text)
-                  &:hover,
-                  &:active
-                      color: var(--highlight)
-      .social-icons
-          align-self: flex-baseline
-          margin: auto 0 0 0
-          color: var(--text)
-          padding: 0
-          li
-              display: inline-block
-              margin-right: 1rem
-              font-size: 1.2rem
-              a
-                  text-decoration: none
-                  color: #3B3B3B
+          &:hover,
+          &:active
+            color: var(--highlight)
+    .social-icons
+      align-self: flex-baseline
+      margin: auto 0 0 0
+      color: var(--text)
+      padding: 0
+      li
+        display: inline-block
+        margin-right: 1rem
+        font-size: 1.2rem
+        a
+          text-decoration: none
+          color: #3B3B3B
 
 article
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18)
-    display: box
-    z-index: 0
-    @media screen and (max-width: 767px)
-        position: absolute
-        top: 0
-        left: 0
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18)
+  display: box
+  z-index: 0
+  width: 100%
+  a.logo
+    text-align: center
+    display: none
+  @media screen and (max-width: 767px)
+    position: absolute!important
+    top: 0
+    left: 0
+    a.logo
+      display: block
 
 h1, h2, h3, h4, h5, .h5
-    font-family: 'Work Sans'
-    font-weight: 700
-    color: var(--text)
+  font-family: 'Work Sans'
+  font-weight: 700
+  color: var(--text)
 
 h1
-    font-size: 2rem
+  font-size: 2rem
 
 code
   background-color: #f6f6f6
@@ -87,35 +123,35 @@ code
   font-size: .9375rem
 
 blockquote
-    padding: 0 15%
-    &::before
-      margin-left: -.85em
-      font-size: 3rem
-      line-height: 0.75
-      display: block
-      height: 0
-      content: "“"
-      color: #e3e3e3
+  padding: 0 15%
+  &::before
+    margin-left: -.85em
+    font-size: 3rem
+    line-height: 0.75
+    display: block
+    height: 0
+    content: "“"
+    color: #e3e3e3
 
 .thumbnail
-    padding-top: 56%
-    background-size: cover
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18)
-    border-radius: 6px
-    .content
+  padding-top: 56%
+  background-size: cover
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18)
+  border-radius: 6px
+  .content
+    position: absolute
+    width: 95%
+    height: 100%
+    top: 0
+    margin: 0
+    a
+      text-decoration: none
+      h2, p.h5
+        color: #FFF!important
+        text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.18)
+    .badges
       position: absolute
-      width: 95%
-      height: 100%
-      top: 0
-      margin: 0
-      a
-          text-decoration: none
-          h2, p.h5
-            color: #FFF!important
-            text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.18)
-      .badges
-          position: absolute
-          bottom: 0
+      bottom: 0
 
 .badges
   padding-bottom: 0.4rem
@@ -128,18 +164,18 @@ blockquote
 
 
 .featureImage
-    width: calc(100% + 6rem)
-    margin-top: 2rem
-    background-size: cover
-    background-position: bottom
-    margin-left: -3rem
-    padding-top: calc(100%/2)
-    @media screen and (max-width: 991px)
-        padding-top: calc(100%/1.5)
+  width: calc(100% + 6rem)
+  margin-top: 2rem
+  background-size: cover
+  background-position: bottom
+  margin-left: -3rem
+  padding-top: calc(100%/2)
+  @media screen and (max-width: 991px)
+      padding-top: calc(100%/1.5)
 
 .article
-    max-width: 740px
-    margin: 0 auto
+  max-width: 740px
+  margin: 0 auto
 
 .gallery
   margin: 0 -0.53333rem
