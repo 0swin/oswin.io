@@ -5,7 +5,7 @@ img { height: auto; max-width: 100%; vertical-align: top; }
 
 .visible { -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 
-.trigger { float: right; font-size: 1.5rem; margin-right: 3rem !important; margin-top: 3rem !important; position: relative; z-index: 2; background: 0; padding: 0; }
+.trigger { float: right; font-size: 2rem; margin-right: 3rem !important; margin-top: 3rem !important; position: relative; z-index: 2; background: 0; padding: 0; }
 
 @media screen and (min-width: 767px) { .trigger { display: none; } }
 
