@@ -1,12 +1,15 @@
-*
+\:root
   --text: #3B3B3B
   --highlight: #4fc6fa
+  --background: #ffffff
+
+*
   transition: padding 0.3s
     
 // *
-//     outline: solid 0.25rem hsla(210, 100%, 50%, 0.1) !important
-//     box-shadow: none !important
-//     filter: none !important
+//   outline: solid 0.25rem hsla(210, 100%, 50%, 0.1) !important
+//   box-shadow: none !important
+//   filter: none !important
 
 img
   height: auto
@@ -18,14 +21,15 @@ img
   transition: all 0.3s ease-out
 
 .trigger
+  background: 0
+  cursor: pointer
   float: right
   font-size: 2rem
   margin-right: 3rem!important
   margin-top: 3rem!important
+  padding: 10px
   position: relative
   z-index: 2
-  background: 0
-  padding: 0
   @media screen and (min-width: 767px)
     display: none
 
@@ -54,7 +58,7 @@ nav
     a.logo
       text-align: center
   .nav-container
-    background: #fafafa
+    background: var(--background)
     display: flex
     flex-direction: column
     font-family: 'Work Sans'
@@ -99,11 +103,12 @@ article
   display: box
   width: 100%
   z-index: 0
-  background-color: #ffffff
+  background-color: var(--background)
   a.logo
     display: none
     text-align: center
   @media screen and (max-width: 767px)
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0)
     left: 0
     position: absolute!important
     top: 0
@@ -148,7 +153,7 @@ blockquote
     a
       text-decoration: none
       h2, p.h5
-        color: #FFF!important
+        color: var(--background)!important
         text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.18)
     .badges
       position: absolute
@@ -160,7 +165,7 @@ blockquote
   padding-left: 0
   .badge
     background-color: rgba(black, 0.35)
-    color: #FFF!important
+    color: var(--background)!important
     margin-right: 0.3rem
 
 

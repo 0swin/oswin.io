@@ -1,11 +1,13 @@
 @charset "UTF-8";
-* { --text: #3B3B3B; --highlight: #4fc6fa; -webkit-transition: padding 0.3s; -o-transition: padding 0.3s; transition: padding 0.3s; }
+:root { --text: #3B3B3B; --highlight: #4fc6fa; --background: #ffffff; }
+
+* { -webkit-transition: padding 0.3s; -o-transition: padding 0.3s; transition: padding 0.3s; }
 
 img { height: auto; max-width: 100%; vertical-align: top; }
 
 .visible { -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 
-.trigger { float: right; font-size: 2rem; margin-right: 3rem !important; margin-top: 3rem !important; position: relative; z-index: 2; background: 0; padding: 0; }
+.trigger { background: 0; cursor: pointer; float: right; font-size: 2rem; margin-right: 3rem !important; margin-top: 3rem !important; padding: 10px; position: relative; z-index: 2; }
 
 @media screen and (min-width: 767px) { .trigger { display: none; } }
 
@@ -18,7 +20,7 @@ nav { height: 100vh; margin: 0 !important; padding: 0 !important; }
 @media screen and (max-width: 767px) { nav { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); left: 0; position: absolute !important; top: 0; -webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; z-index: 1; }
   nav a.logo { text-align: center; } }
 
-nav .nav-container { background: #fafafa; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-family: 'Work Sans'; font-weight: 600; height: 100vh; padding: 3rem 0 3rem 3rem; position: fixed; top: 0; width: 100%; }
+nav .nav-container { background: var(--background); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-family: 'Work Sans'; font-weight: 600; height: 100vh; padding: 3rem 0 3rem 3rem; position: fixed; top: 0; width: 100%; }
 
 @media screen and (max-width: 767px) { nav .nav-container { padding: 3rem; } }
 
@@ -36,11 +38,11 @@ nav .nav-container .social-icons li { display: inline-block; font-size: 1.2rem; 
 
 nav .nav-container .social-icons li a { color: #3B3B3B; text-decoration: none; }
 
-article { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); display: box; width: 100%; z-index: 0; background-color: #ffffff; }
+article { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); display: box; width: 100%; z-index: 0; background-color: var(--background); }
 
 article a.logo { display: none; text-align: center; }
 
-@media screen and (max-width: 767px) { article { left: 0; position: absolute !important; top: 0; }
+@media screen and (max-width: 767px) { article { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0); left: 0; position: absolute !important; top: 0; }
   article a.logo { display: block; } }
 
 h1, h2, h3, h4, h5, .h5 { color: var(--text); font-family: 'Work Sans'; font-weight: 700; }
@@ -59,13 +61,13 @@ blockquote::before { color: #e3e3e3; content: "“"; display: block; font-size: 
 
 .thumbnail .content a { text-decoration: none; }
 
-.thumbnail .content a h2, .thumbnail .content a p.h5 { color: #FFF !important; text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.18); }
+.thumbnail .content a h2, .thumbnail .content a p.h5 { color: var(--background) !important; text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.18); }
 
 .thumbnail .content .badges { position: absolute; bottom: 0; }
 
 .badges { list-style: none; padding-bottom: 0.4rem; padding-left: 0; }
 
-.badges .badge { background-color: rgba(0, 0, 0, 0.35); color: #FFF !important; margin-right: 0.3rem; }
+.badges .badge { background-color: rgba(0, 0, 0, 0.35); color: var(--background) !important; margin-right: 0.3rem; }
 
 .featureImage { background-position: bottom; background-size: cover; margin-left: -3rem; margin-top: 2rem; padding-top: calc(100%/2); width: calc(100% + 6rem); }
 
