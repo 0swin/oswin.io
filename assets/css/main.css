@@ -1,5 +1,5 @@
 @charset "UTF-8";
-:root { --text: #3B3B3B; --highlight: #4fc6fa; --background: #ffffff; }
+:root { --text: #3B3B3B; --highlight: #4fc6fa; --background: #ffffff; --shadow: rgba(0, 0, 0, 0.18); --badgebg: rgba(0, 0, 0, 0.35); --quote: #e3e3e3; }
 
 * { -webkit-transition: padding 0.3s; -o-transition: padding 0.3s; transition: padding 0.3s; }
 
@@ -11,13 +11,13 @@ img { height: auto; max-width: 100%; vertical-align: top; }
 
 @media screen and (min-width: 767px) { .trigger { display: none; } }
 
-a.logo { color: var(--text); font-family: "Montserrat" !important; font-size: 2rem; font-weight: bold; text-decoration: none !important; }
+a.logo { color: var(--text); font-family: "Montserrat" !important; font-size: 2rem; font-weight: bold; text-decoration: none !important; margin-bottom: 2rem; }
 
 a.logo:active, a.logo:hover, a.logo:focus { color: var(--text) !important; text-decoration: none !important; }
 
 nav { height: 100vh; margin: 0 !important; padding: 0 !important; }
 
-@media screen and (max-width: 767px) { nav { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); left: 0; position: absolute !important; top: 0; -webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; z-index: 1; }
+@media screen and (max-width: 767px) { nav { -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); left: 0; position: absolute !important; top: 0; -webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; z-index: 1; }
   nav a.logo { text-align: center; } }
 
 nav .nav-container { background: var(--background); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-family: 'Work Sans'; font-weight: 600; height: 100vh; padding: 3rem 0 3rem 3rem; position: fixed; top: 0; width: 100%; }
@@ -36,9 +36,9 @@ nav .nav-container .social-icons { -ms-flex-item-align: flex-baseline; align-sel
 
 nav .nav-container .social-icons li { display: inline-block; font-size: 1.2rem; margin-right: 1rem; }
 
-nav .nav-container .social-icons li a { color: #3B3B3B; text-decoration: none; }
+nav .nav-container .social-icons li a { color: var(--text); text-decoration: none; }
 
-article { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); display: box; width: 100%; z-index: 0; background-color: var(--background); }
+article { -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); display: box; width: 100%; z-index: 0; background-color: var(--background); }
 
 article a.logo { display: none; text-align: center; }
 
@@ -53,21 +53,23 @@ code { background-color: #f6f6f6; font-family: Monaco,"Courier New", monospace; 
 
 blockquote { padding: 0 15%; }
 
-blockquote::before { color: #e3e3e3; content: "“"; display: block; font-size: 3rem; height: 0; line-height: 0.75; margin-left: -.85em; }
+blockquote::before { color: var(--quote); content: "“"; display: block; font-size: 3rem; height: 0; line-height: 0.75; margin-left: -.85em; }
 
-.thumbnail { background-size: cover; border-radius: 6px; -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.18); padding-top: 56%; }
+.thumbnail { border-radius: 6px; -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); padding-top: 56%; position: relative; overflow: hidden; }
+
+.thumbnail img { position: absolute; top: 0; width: 100%; height: 100%; }
 
 .thumbnail .content { height: 100%; margin: 0; position: absolute; top: 0; width: 95%; }
 
 .thumbnail .content a { text-decoration: none; }
 
-.thumbnail .content a h2, .thumbnail .content a p.h5 { color: var(--background) !important; text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.18); }
+.thumbnail .content a h2, .thumbnail .content a p.h5 { color: var(--background) !important; text-shadow: 0px 2px 16px var(--shadow); }
 
 .thumbnail .content .badges { position: absolute; bottom: 0; }
 
 .badges { list-style: none; padding-bottom: 0.4rem; padding-left: 0; }
 
-.badges .badge { background-color: rgba(0, 0, 0, 0.35); color: var(--background) !important; margin-right: 0.3rem; }
+.badges .badge { background-color: var(--badgebg); color: var(--background) !important; margin-right: 0.3rem; }
 
 .featureImage { background-position: bottom; background-size: cover; margin-left: -3rem; margin-top: 2rem; padding-top: calc(100%/2); width: calc(100% + 6rem); }
 
