@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-14T16:13:01+02:00</updated>
+    <updated>2019-06-14T16:21:14+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -116,16 +116,16 @@
         <link href="/futur-en-seine.html"/>
         <id>/futur-en-seine.html</id>
 
-        <updated>2019-06-13T11:57:23+02:00</updated>
+        <updated>2019-06-14T16:21:04+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="/media/posts/6/thumbnail.png" alt="" />
+                        <img src="/media/posts/6/thumbnail.jpg" alt="" />
                     dqddddq
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="/media/posts/6/thumbnail.png" alt="" />
+                    <img src="/media/posts/6/thumbnail.jpg" alt="" />
                 dqddddq
             ]]>
         </content>
