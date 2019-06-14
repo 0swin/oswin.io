@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-14T16:40:15+02:00</updated>
+    <updated>2019-06-14T16:41:35+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -138,14 +138,16 @@
         <link href="/bnf.html"/>
         <id>/bnf.html</id>
 
-        <updated>2019-06-14T16:32:59+02:00</updated>
+        <updated>2019-06-14T16:41:04+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
                     Heading 2Heading 3Heading 4Code Yes
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
                 <h2 id="mcetoc_1dc6t2ph10">Heading 2</h2>
 <h3 id="mcetoc_1dc6t2rl51">Heading 3</h3>
 <h4 id="mcetoc_1dc6t2tp52">Heading 4</h4>
