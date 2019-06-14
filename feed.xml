@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Nicolas Roger - Porfolio</title>
-    <link href="https://v2.oswin.io/feed.xml" rel="self" />
-    <link href="https://v2.oswin.io" />
-    <updated>2019-06-13T16:29:14+02:00</updated>
+    <link href="/feed.xml" rel="self" />
+    <link href="" />
+    <updated>2019-06-14T16:13:01+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
-    <id>https://v2.oswin.io</id>
+    <id></id>
 
     <entry>
         <title>Balcon</title>
         <author>
             <name>oswn</name>
         </author>
-        <link href="https://v2.oswin.io/balcon.html"/>
-        <id>https://v2.oswin.io/balcon.html</id>
+        <link href="/balcon.html"/>
+        <id>/balcon.html</id>
 
-        <updated>2019-06-13T16:13:37+02:00</updated>
-            <summary></summary>
+        <updated>2019-06-13T17:29:01+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="/media/posts/13/balcon.jpg" alt="" />
+                    Modèle : Tess
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://v2.oswin.io/media/posts/13/balcon.jpg" alt="" />
-                <div class="gallery"   >
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-49-40.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-49-40-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-50-36.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-50-36-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-51-13.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-51-13-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-51-17.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-51-17-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-52-05.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-52-05-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-52-20.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-52-20-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-52-24.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-52-24-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-53-42.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-53-42-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-54-44.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-54-44-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-54-54.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-54-54-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-56-51.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-56-51-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-56-55.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-56-55-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-56-58.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-56-58-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-59-24.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_09-59-24-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_10-01-05.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_10-01-05-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_10-01-12.jpg" ><img src="https://v2.oswin.io/media/posts/13/gallery/2019-01-08_10-01-12-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+                    <img src="/media/posts/13/balcon.jpg" alt="" />
+                <p class="text-center">Modèle : <a href="https://www.instagram.com/tess_tupide/">Tess</a></p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-49-40.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-49-40-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-50-36.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-50-36-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-51-13.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-51-13-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-51-17.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-51-17-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-52-05.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-52-05-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-52-20.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-52-20-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-52-24.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-52-24-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-53-42.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-53-42-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-54-44.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-54-44-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-54-54.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-54-54-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-56-51.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-56-51-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-56-55.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-56-55-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-56-58.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-56-58-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_09-59-24.jpg" ><img src="/media/posts/13/gallery/2019-01-08_09-59-24-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_10-01-05.jpg" ><img src="/media/posts/13/gallery/2019-01-08_10-01-05-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/13/gallery/2019-01-08_10-01-12.jpg" ><img src="/media/posts/13/gallery/2019-01-08_10-01-12-thumbnail.jpg" alt="" width="768" height="768"></a></figure>
 </div>
             ]]>
         </content>
@@ -48,27 +54,32 @@
         <author>
             <name>oswn</name>
         </author>
-        <link href="https://v2.oswin.io/guirelandes.html"/>
-        <id>https://v2.oswin.io/guirelandes.html</id>
+        <link href="/guirelandes.html"/>
+        <id>/guirelandes.html</id>
 
-        <updated>2019-06-13T16:03:11+02:00</updated>
-            <summary></summary>
+        <updated>2019-06-13T17:29:06+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="/media/posts/12/guirelandes.jpg" alt="" />
+                    Modèle : Tess
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://v2.oswin.io/media/posts/12/guirelandes.jpg" alt="" />
-                <div class="gallery"   >
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-22-35.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-22-35-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-25-32.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-25-32-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-26-31.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-26-31-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-32-21.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-32-21-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-39-32.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-39-32-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-41-02.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_22-41-02-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-01-11.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-01-11-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-02-07.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-02-07-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-15-35.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-15-35-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-22-24.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-22-24-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-53-18.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-53-18-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-53-37.jpg" ><img src="https://v2.oswin.io/media/posts/12/gallery/2019-01-07_23-53-37-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+                    <img src="/media/posts/12/guirelandes.jpg" alt="" />
+                <p class="text-center">Modèle : <a href="https://www.instagram.com/tess_tupide/">Tess</a></p>
+<div class="gallery align-center"   >
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_22-22-35.jpg" ><img src="/media/posts/12/gallery/2019-01-07_22-22-35-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_22-25-32.jpg" ><img src="/media/posts/12/gallery/2019-01-07_22-25-32-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_22-26-31.jpg" ><img src="/media/posts/12/gallery/2019-01-07_22-26-31-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_22-32-21.jpg" ><img src="/media/posts/12/gallery/2019-01-07_22-32-21-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_22-39-32.jpg" ><img src="/media/posts/12/gallery/2019-01-07_22-39-32-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_22-41-02.jpg" ><img src="/media/posts/12/gallery/2019-01-07_22-41-02-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_23-01-11.jpg" ><img src="/media/posts/12/gallery/2019-01-07_23-01-11-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_23-02-07.jpg" ><img src="/media/posts/12/gallery/2019-01-07_23-02-07-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_23-15-35.jpg" ><img src="/media/posts/12/gallery/2019-01-07_23-15-35-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_23-22-24.jpg" ><img src="/media/posts/12/gallery/2019-01-07_23-22-24-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/12/gallery/2019-01-07_23-53-37.jpg" ><img src="/media/posts/12/gallery/2019-01-07_23-53-37-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
 </div>
             ]]>
         </content>
@@ -78,19 +89,19 @@
         <author>
             <name>oswn</name>
         </author>
-        <link href="https://v2.oswin.io/charlie-delahousse.html"/>
-        <id>https://v2.oswin.io/charlie-delahousse.html</id>
+        <link href="/charlie-delahousse.html"/>
+        <id>/charlie-delahousse.html</id>
 
         <updated>2019-06-13T15:48:39+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://v2.oswin.io/media/posts/11/thumbnail-charlie.png" alt="" />
+                        <img src="/media/posts/11/thumbnail-charlie.png" alt="" />
                     Text Text
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://v2.oswin.io/media/posts/11/thumbnail-charlie.png" alt="" />
+                    <img src="/media/posts/11/thumbnail-charlie.png" alt="" />
                 <p>Text</p>
 <figure class="post__video embed-responsive embed-responsive-16by9"><iframe width="300" height="150" src="https://www.youtube.com/embed/iHHdoqXrL-A" allowfullscreen="allowfullscreen" ></iframe></figure>
 <p>Text</p>
@@ -102,19 +113,19 @@
         <author>
             <name>oswn</name>
         </author>
-        <link href="https://v2.oswin.io/futur-en-seine.html"/>
-        <id>https://v2.oswin.io/futur-en-seine.html</id>
+        <link href="/futur-en-seine.html"/>
+        <id>/futur-en-seine.html</id>
 
         <updated>2019-06-13T11:57:23+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://v2.oswin.io/media/posts/6/thumbnail.png" alt="" />
+                        <img src="/media/posts/6/thumbnail.png" alt="" />
                     dqddddq
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://v2.oswin.io/media/posts/6/thumbnail.png" alt="" />
+                    <img src="/media/posts/6/thumbnail.png" alt="" />
                 dqddddq
             ]]>
         </content>
@@ -124,19 +135,19 @@
         <author>
             <name>oswn</name>
         </author>
-        <link href="https://v2.oswin.io/bnf.html"/>
-        <id>https://v2.oswin.io/bnf.html</id>
+        <link href="/bnf.html"/>
+        <id>/bnf.html</id>
 
         <updated>2019-06-13T11:57:46+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://v2.oswin.io/media/posts/7/thumbnail-bnf.png" alt="" />
+                        <img src="/media/posts/7/thumbnail-bnf.png" alt="" />
                     Heading 2Heading 3Heading 4Code Yes
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://v2.oswin.io/media/posts/7/thumbnail-bnf.png" alt="" />
+                    <img src="/media/posts/7/thumbnail-bnf.png" alt="" />
                 <h2 id="mcetoc_1dc6t2ph10">Heading 2</h2>
 <h3 id="mcetoc_1dc6t2rl51">Heading 3</h3>
 <h4 id="mcetoc_1dc6t2tp52">Heading 4</h4>
@@ -145,12 +156,12 @@
 <p>Yes</p>
 </blockquote>
 <div class="gallery"   >
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/7/gallery/image-24.png" ><img src="https://v2.oswin.io/media/posts/7/gallery/image-24-thumbnail.png" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/7/gallery/image-23.png" ><img src="https://v2.oswin.io/media/posts/7/gallery/image-23-thumbnail.png" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/7/gallery/image-22.png" ><img src="https://v2.oswin.io/media/posts/7/gallery/image-22-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/7/gallery/image-24.png" ><img src="/media/posts/7/gallery/image-24-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/7/gallery/image-23.png" ><img src="/media/posts/7/gallery/image-23-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/7/gallery/image-22.png" ><img src="/media/posts/7/gallery/image-22-thumbnail.png" alt="" width="240" height="240"></a></figure>
 </div>
 <div class="gallery"   >
-<figure class="gallery__item"><a href="https://v2.oswin.io/media/posts/7/gallery/Screen-Shot-2019-05-12-at-21.09.45-PM.png" ><img src="https://v2.oswin.io/media/posts/7/gallery/Screen-Shot-2019-05-12-at-21.09.45-PM-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/7/gallery/Screen-Shot-2019-05-12-at-21.09.45-PM.png" ><img src="/media/posts/7/gallery/Screen-Shot-2019-05-12-at-21.09.45-PM-thumbnail.png" alt="" width="240" height="240"></a></figure>
 </div>
             ]]>
         </content>
@@ -160,8 +171,8 @@
         <author>
             <name>oswn</name>
         </author>
-        <link href="https://v2.oswin.io/notvetica.html"/>
-        <id>https://v2.oswin.io/notvetica.html</id>
+        <link href="/notvetica.html"/>
+        <id>/notvetica.html</id>
 
         <updated>2019-06-13T11:58:06+02:00</updated>
             <summary></summary>
