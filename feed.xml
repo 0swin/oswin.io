@@ -3,21 +3,21 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-16T20:26:52+02:00</updated>
+    <updated>2019-06-16T20:59:37+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
     <id></id>
 
     <entry>
-        <title>Balcon</title>
+        <title>Waking up in Paris</title>
         <author>
             <name>oswn</name>
         </author>
         <link href="/balcon.html"/>
         <id>/balcon.html</id>
 
-        <updated>2019-06-14T17:27:09+02:00</updated>
+        <updated>2019-06-16T20:56:20+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/13/balcon.jpg" alt="" />
@@ -50,14 +50,14 @@
         </content>
     </entry>
     <entry>
-        <title>Guirelandes</title>
+        <title>Fairy Lights</title>
         <author>
             <name>oswn</name>
         </author>
         <link href="/guirelandes.html"/>
         <id>/guirelandes.html</id>
 
-        <updated>2019-06-14T17:40:38+02:00</updated>
+        <updated>2019-06-16T20:56:26+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/12/guirelandes.jpg" alt="" />
@@ -138,7 +138,7 @@
         <link href="/gallica-studio.html"/>
         <id>/gallica-studio.html</id>
 
-        <updated>2019-06-16T20:26:04+02:00</updated>
+        <updated>2019-06-16T20:59:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
