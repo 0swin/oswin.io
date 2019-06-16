@@ -70,8 +70,8 @@
             "date_modified": "2019-06-14T16:21:04+02:00"
         },
         {
-            "id": "/bnf.html",
-            "url": "/bnf.html",
+            "id": "/gallica-studio.html",
+            "url": "/gallica-studio.html",
             "title": "Gallica Studio",
             "summary": "Gallica StudioGallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5&hellip;",
             "content_html": "<h2 id=\"mcetoc_1ddgi8amp0\">Gallica Studio</h2>\n<p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>\n<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation.</p>\n<p><img class=\"post__image--full\" src=\"/media/posts/7/carbon-5.png\" alt=\"\" width=\"1724\" height=\"514\"></p>\n<p class=\"align-center\"><em>Exemple des métadonnées d'un document, au format JSON</em></p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgls5qq0\">Notre concept</h2>\n<blockquote>\n<p class=\"align-left\">Visualiser l'usage des lettres de l'alphabet dans les titres<br>de périodiques au cours du temps</p>\n</blockquote>\n<p> </p>\n<h2 id=\"mcetoc_1ddgm22i01\">Itérations</h2>\n<div class=\"row\">\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-2.png\" alt=\"\" width=\"756\" height=\"793\">On trace les titres en reliant les lettres de l'alphabet dans un cercle</p>\n</div>\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-3.png\" alt=\"\" width=\"756\" height=\"793\">On baisse l'opacité pour rendre plus visible les traits qui se superposent</p>\n</div>\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-4.png\" alt=\"\" width=\"756\" height=\"793\">On modifie la tendaison des cordes pour mieux visualiser le nombre de mots </p>\n</div>\n</div>\n<p><img class=\"post__image--full\" src=\"/media/posts/7/carbon-6.png\" alt=\"\" width=\"1182\" height=\"478\"></p>\n<h2 id=\"mcetoc_1ddgoca7l2\">Réalisation</h2>\n<p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>\n<p><img class=\"post__image--full mb-2\" src=\"/media/posts/7/affiches-1.png\" alt=\"\" width=\"2483\" height=\"1681\"></p>\n<p><img class=\"post__image--full mb-2\" src=\"/media/posts/7/affiches-2.png\" alt=\"\" width=\"2483\" height=\"1681\"></p>\n<p><img class=\"post__image--full img-fluid\" src=\"/media/posts/7/mockup.png\" alt=\"\" width=\"3000\" height=\"1842\"></p>\n<p> </p>",
@@ -82,7 +82,7 @@
             "tags": [
             ],
             "date_published": "2019-01-01T00:03:00+01:00",
-            "date_modified": "2019-06-16T20:23:30+02:00"
+            "date_modified": "2019-06-16T20:26:04+02:00"
         },
         {
             "id": "/notvetica.html",
