@@ -5,6 +5,10 @@
 
 img { height: auto; max-width: 100%; vertical-align: top; }
 
+a { color: var(--highlight); }
+
+a:hover, a:focus, a:active { color: var(--highlight); }
+
 .visible { -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 
 .trigger { background: 0; cursor: pointer; float: right; font-size: 2rem; margin-right: 3rem !important; margin-top: 3rem !important; padding: 10px; position: relative; z-index: 2; }
@@ -106,3 +110,5 @@ blockquote::before { color: var(--quote); content: "“"; display: block; font-s
 @media all and (min-width: 30em) { .gallery__item { width: 33.333%; } }
 
 @media all and (min-width: 37.5em) { .gallery__item { width: 25%; } }
+
+.align-center { text-align: center; }

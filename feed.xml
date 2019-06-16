@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-14T17:19:55+02:00</updated>
+    <updated>2019-06-16T20:23:35+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="/balcon.html"/>
         <id>/balcon.html</id>
 
-        <updated>2019-06-13T17:29:01+02:00</updated>
+        <updated>2019-06-14T17:27:09+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/13/balcon.jpg" alt="" />
@@ -57,7 +57,7 @@
         <link href="/guirelandes.html"/>
         <id>/guirelandes.html</id>
 
-        <updated>2019-06-13T17:29:06+02:00</updated>
+        <updated>2019-06-14T17:40:38+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/12/guirelandes.jpg" alt="" />
@@ -131,35 +131,53 @@
         </content>
     </entry>
     <entry>
-        <title>BnF</title>
+        <title>Gallica Studio</title>
         <author>
             <name>oswn</name>
         </author>
         <link href="/bnf.html"/>
         <id>/bnf.html</id>
 
-        <updated>2019-06-14T16:51:38+02:00</updated>
+        <updated>2019-06-16T20:23:30+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
-                    Heading 2Heading 3Heading 4Code Yes
+                    Gallica StudioGallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
-                <h2 id="mcetoc_1dc6t2ph10">Heading 2</h2>
-<h3 id="mcetoc_1dc6t2rl51">Heading 3</h3>
-<h4 id="mcetoc_1dc6t2tp52">Heading 4</h4>
-<p><code>Code</code></p>
+                <h2 id="mcetoc_1ddgi8amp0">Gallica Studio</h2>
+<p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>
+<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation.</p>
+<p><img class="post__image--full" src="/media/posts/7/carbon-5.png" alt="" width="1724" height="514"></p>
+<p class="align-center"><em>Exemple des métadonnées d'un document, au format JSON</em></p>
+<p> </p>
+<h2 id="mcetoc_1ddgls5qq0">Notre concept</h2>
 <blockquote>
-<p>Yes</p>
+<p class="align-left">Visualiser l'usage des lettres de l'alphabet dans les titres<br>de périodiques au cours du temps</p>
 </blockquote>
-<div class="gallery"   >
-<figure class="gallery__item"><a href="/media/posts/7/gallery/image-24.png" ><img src="/media/posts/7/gallery/image-24-thumbnail.png" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="/media/posts/7/gallery/image-23.png" ><img src="/media/posts/7/gallery/image-23-thumbnail.png" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="/media/posts/7/gallery/image-22.png" ><img src="/media/posts/7/gallery/image-22-thumbnail.png" alt="" width="240" height="240"></a></figure>
+<p> </p>
+<h2 id="mcetoc_1ddgm22i01">Itérations</h2>
+<div class="row">
+<div class="col-sm-4">
+<p><img class="post__image--full" src="/media/posts/7/iterationsArtboard-2.png" alt="" width="756" height="793">On trace les titres en reliant les lettres de l'alphabet dans un cercle</p>
 </div>
+<div class="col-sm-4">
+<p><img class="post__image--full" src="/media/posts/7/iterationsArtboard-3.png" alt="" width="756" height="793">On baisse l'opacité pour rendre plus visible les traits qui se superposent</p>
+</div>
+<div class="col-sm-4">
+<p><img class="post__image--full" src="/media/posts/7/iterationsArtboard-4.png" alt="" width="756" height="793">On modifie la tendaison des cordes pour mieux visualiser le nombre de mots </p>
+</div>
+</div>
+<p><img class="post__image--full" src="/media/posts/7/carbon-6.png" alt="" width="1182" height="478"></p>
+<h2 id="mcetoc_1ddgoca7l2">Réalisation</h2>
+<p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>
+<p><img class="post__image--full mb-2" src="/media/posts/7/affiches-1.png" alt="" width="2483" height="1681"></p>
+<p><img class="post__image--full mb-2" src="/media/posts/7/affiches-2.png" alt="" width="2483" height="1681"></p>
+<p><img class="post__image--full img-fluid" src="/media/posts/7/mockup.png" alt="" width="3000" height="1842"></p>
+<p> </p>
             ]]>
         </content>
     </entry>

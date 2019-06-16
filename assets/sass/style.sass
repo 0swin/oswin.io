@@ -19,6 +19,11 @@ img
   max-width: 100%
   vertical-align: top
 
+a
+  color: var(--highlight)
+  &:hover, &:focus, &:active
+    color: var(--highlight)
+
 .visible
   transform: translateX(0%)
   transition: all 0.3s ease-out
@@ -258,3 +263,6 @@ blockquote
 @media all and (min-width: 37.5em)
   .gallery__item
     width: 25%
+
+.align-center
+  text-align: center
