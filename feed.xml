@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Portfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-18T01:21:46+02:00</updated>
+    <updated>2019-06-18T01:33:15+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -85,6 +85,30 @@
         </content>
     </entry>
     <entry>
+        <title>Notvetica</title>
+        <author>
+            <name>oswn</name>
+        </author>
+        <link href="/notvetica.html"/>
+        <id>/notvetica.html</id>
+
+        <updated>2019-06-18T01:22:41+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Flatland</title>
+        <author>
+            <name>oswn</name>
+        </author>
+        <link href="/flatland.html"/>
+        <id>/flatland.html</id>
+
+        <updated>2019-06-18T01:33:11+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
         <title>Charlie Delahousse</title>
         <author>
             <name>oswn</name>
@@ -92,7 +116,7 @@
         <link href="/charlie-delahousse.html"/>
         <id>/charlie-delahousse.html</id>
 
-        <updated>2019-06-18T01:21:35+02:00</updated>
+        <updated>2019-06-18T01:23:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/11/Untitled-4.jpg" alt="" />
@@ -122,18 +146,6 @@
 <p class="text-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio1.jpg" alt="" width="1440" height="900">Page d'un projet</p>
             ]]>
         </content>
-    </entry>
-    <entry>
-        <title>Notvetica</title>
-        <author>
-            <name>oswn</name>
-        </author>
-        <link href="/notvetica.html"/>
-        <id>/notvetica.html</id>
-
-        <updated>2019-06-18T00:35:34+02:00</updated>
-            <summary></summary>
-        <content></content>
     </entry>
     <entry>
         <title>Futur.E.S</title>
