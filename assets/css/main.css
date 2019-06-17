@@ -28,7 +28,7 @@ nav .nav-container { background: var(--background); display: -webkit-box; displa
 
 @media screen and (max-width: 767px) { nav .nav-container { padding: 3rem; } }
 
-nav .nav-container ul { color: var(--text); line-height: 1.8; list-style: none; padding-left: 0; text-transform: lowercase; }
+nav .nav-container ul { color: var(--text); line-height: 2; list-style: none; padding-left: 0; text-transform: lowercase; }
 
 nav .nav-container ul .nom { font-weight: 800; }
 
@@ -42,11 +42,11 @@ nav .nav-container .social-icons-menu li { display: inline-block; font-size: 1.2
 
 nav .nav-container .social-icons-menu li a { color: var(--text); text-decoration: none; }
 
-article { -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); display: box; width: 100%; z-index: 0; background-color: var(--background); }
+article { -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); display: box; width: 100%; z-index: 0; padding: 3rem !important; background-color: var(--background); }
 
 article a.logo { display: none; text-align: center; }
 
-@media screen and (max-width: 767px) { article { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0); left: 0; position: absolute !important; top: 0; }
+@media screen and (max-width: 767px) { article { -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0); box-shadow: 0px 0px 16px rgba(0, 0, 0, 0); left: 0; position: absolute !important; top: 0; padding: 2rem !important; }
   article a.logo { display: block; } }
 
 h1, h2, h3, h4, h5, .h5 { color: var(--text); font-family: 'Work Sans'; font-weight: 700; }
