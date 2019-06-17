@@ -11,7 +11,7 @@ a:hover, a:focus, a:active { color: var(--highlight); }
 
 .visible { -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 
-.trigger { background: 0; cursor: pointer; float: right; font-size: 2rem; margin-right: 3rem !important; margin-top: 3rem !important; padding: 10px; position: relative; z-index: 2; }
+.trigger { background: 0; cursor: pointer; float: right; font-size: 2rem; margin-right: 1.4rem !important; margin-top: 1.4rem !important; padding: 10px; position: relative; z-index: 2; }
 
 @media screen and (min-width: 767px) { .trigger { display: none; } }
 
@@ -26,7 +26,7 @@ nav { height: 100vh; margin: 0 !important; padding: 0 !important; }
 
 nav .nav-container { background: var(--background); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-family: 'Work Sans'; font-weight: 600; height: 100vh; padding: 3rem 1rem 3rem 3rem; position: fixed; top: 0; width: 100%; }
 
-@media screen and (max-width: 767px) { nav .nav-container { padding: 3rem; } }
+@media screen and (max-width: 767px) { nav .nav-container { padding: 2rem; } }
 
 nav .nav-container ul { color: var(--text); line-height: 2; list-style: none; padding-left: 0; text-transform: lowercase; }
 
