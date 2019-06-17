@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-16T21:04:27+02:00</updated>
+    <updated>2019-06-17T10:15:06+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -138,26 +138,29 @@
         <link href="/gallica-studio.html"/>
         <id>/gallica-studio.html</id>
 
-        <updated>2019-06-16T21:01:22+02:00</updated>
+        <updated>2019-06-17T10:14:50+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
-                    Gallica StudioGallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5&hellip;
+                     Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
-                <h2 id="mcetoc_1ddgi8amp0">Gallica Studio</h2>
+                <p id="mcetoc_1ddi7tslk0"> </p>
+<h2 id="mcetoc_1ddgi8amp0">Gallica Studio</h2>
 <p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>
 <p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation.</p>
 <p><img class="post__image--full" src="/media/posts/7/carbon-5.png" alt="" width="1724" height="514"></p>
 <p class="align-center"><em>Exemple des métadonnées d'un document, au format JSON</em></p>
 <p> </p>
+<p> </p>
 <h2 id="mcetoc_1ddgls5qq0">Notre concept</h2>
 <blockquote>
 <p class="align-left">Visualiser l'usage des lettres de l'alphabet dans les titres<br>de périodiques au cours du temps</p>
 </blockquote>
+<p> </p>
 <p> </p>
 <h2 id="mcetoc_1ddgm22i01">Itérations</h2>
 <div class="row">
@@ -172,12 +175,13 @@
 </div>
 </div>
 <p><img class="post__image--full" src="/media/posts/7/carbon-6.png" alt="" width="1182" height="478"></p>
+<p id="mcetoc_1ddi7ucp31"> </p>
+<p> </p>
 <h2 id="mcetoc_1ddgoca7l2">Réalisation</h2>
 <p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>
 <p><img class="post__image--full" src="/media/posts/7/affiches-1.png" alt="" width="2483" height="1681"></p>
 <p><img class="post__image--full" src="/media/posts/7/affiches-2.png" alt="" width="2483" height="1681"></p>
 <p><img class="post__image--full img-fluid" src="/media/posts/7/mockup.png" alt="" width="3000" height="1842"></p>
-<p> </p>
             ]]>
         </content>
     </entry>
