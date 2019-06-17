@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Portfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-17T23:38:52+02:00</updated>
+    <updated>2019-06-18T01:21:46+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -92,7 +92,7 @@
         <link href="/charlie-delahousse.html"/>
         <id>/charlie-delahousse.html</id>
 
-        <updated>2019-06-17T20:12:41+02:00</updated>
+        <updated>2019-06-18T01:21:35+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/11/Untitled-4.jpg" alt="" />
@@ -103,18 +103,37 @@
             <![CDATA[
                     <img src="/media/posts/11/Untitled-4.jpg" alt="" />
                 <h2 id="mcetoc_1ddiououu0">Portfolio de Charlie Delahousse</h2>
-<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format <em>one-page</em>. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>
+<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format <em>one-page</em>. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading</em>.<br>L'arrière plan est une simulation de particules faite en p5.js par Charlie.</p>
 <p>Le site est accessible via ce lien: <a href="https://charlie.oswin.io" target="_blank" rel="noopener noreferrer">https://charlie.oswin.io</a>, et le code est disponible sur <a href="https://github.com/0swin/charlie.oswin.io">GitHub</a>.</p>
+<p> </p>
 <div class="row">
 <div class="col">
-<p class="align-center"><img class="post__image" src="/media/posts/11/charlie-avant.png" alt="Portfolio Charlie Delahousse Avant" width="1540" height="1016">Avant</p>
+<p class="text-center"><img class="post__image" src="/media/posts/11/charlie-avant.png" alt="Portfolio Charlie Delahousse Avant" width="1540" height="1016">Avant</p>
 </div>
 <div class="col">
-<p class="align-center"><img class="post__image" src="/media/posts/11/charlie-apres.png" alt="Portfolio Charlie Delahousse après" width="1540" height="1016">Après</p>
+<p class="text-center"><img class="post__image" src="/media/posts/11/charlie-apres.png" alt="Portfolio Charlie Delahousse après" width="1540" height="1016">Après</p>
 </div>
 </div>
+<p> </p>
+<p> </p>
+<p class="text-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio.jpg" alt="" width="1440" height="1949">Liste des projets</p>
+<p> </p>
+<p> </p>
+<p class="text-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio1.jpg" alt="" width="1440" height="900">Page d'un projet</p>
             ]]>
         </content>
+    </entry>
+    <entry>
+        <title>Notvetica</title>
+        <author>
+            <name>oswn</name>
+        </author>
+        <link href="/notvetica.html"/>
+        <id>/notvetica.html</id>
+
+        <updated>2019-06-18T00:35:34+02:00</updated>
+            <summary></summary>
+        <content></content>
     </entry>
     <entry>
         <title>Futur.E.S</title>
@@ -124,22 +143,43 @@
         <link href="/futur-en-seine.html"/>
         <id>/futur-en-seine.html</id>
 
-        <updated>2019-06-17T23:12:39+02:00</updated>
+        <updated>2019-06-18T01:11:58+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/6/thumbnail.jpg" alt="" />
-                    Futur.E.SFutur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5&hellip;
+                    Futur.E.SFutur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Projet réalisé en collaboration avec Charlie Delahousse, Hugo Depagniat,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="/media/posts/6/thumbnail.jpg" alt="" />
                 <h2 id="mcetoc_1ddjecdoq0">Futur.E.S</h2>
-<p>Futur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>
+<p>Futur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement.</p>
 <p>Projet réalisé en collaboration avec <a href="https://charlie.oswin.io" target="_blank" rel="noopener noreferrer">Charlie Delahousse</a>, <a href="https://hugodepagniat.dyjix.fr" target="_blank" rel="noopener noreferrer">Hugo Depagniat</a>, <a href="http://charlie-j.fr" target="_blank" rel="noopener noreferrer">Charlie Josserand</a> et <a href="https://melilun.ml" target="_blank" rel="noopener noreferrer">Mélissa Luntadila</a>.</p>
 <p>Pour ce projet, j'ai réalisé la modélisation et l'animation de la scène sur la réalité virtuelle, ainsi que le texturing, éclairage et compositing des autres scènes.</p>
 <p> </p>
-<p><img class="post__image" src="/media/posts/6/affiches-futures.jpg" alt="" width="1920" height="1295"> </p>
+<p> </p>
+<h2 id="mcetoc_1ddjppp871">Notre concept</h2>
+<blockquote>
+<p>Inviter à un festival d'innovation à l'aide de visuels représentant le futur sans tomber dans la dystopie </p>
+</blockquote>
+<p> </p>
+<p> </p>
+<p>Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>
+<p> </p>
+<p class="text-center"><img class="post__image" src="/media/posts/6/64475046_2493169904066982_2855128369563959296_n.jpg" alt="" width="1296" height="1728"> <em>Charlie Delahousse</em></p>
+<p class="text-center"><img class="post__image--full" src="/media/posts/6/moodboards-futures" alt="" width="1415" height="1774"><em>Moodboards</em></p>
+<p> </p>
+<div class="embed-responsive embed-responsive-18by9">
+<figure class="post__video"><iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/D8h1coWLLew?autoplay=1&amp;loop=1&amp;color=white&amp;modestbranding=1&amp;rel=0&amp;amp" allowfullscreen="allowfullscreen" mute="" autoplay="autoplay" loop="loop" ></iframe></figure>
+</div>
+<p> </p>
+<p> </p>
+<p>Afin d'amener une sixième thématique à ce projet, nous avons voulu transformer ces affiches vidéo en des affiches en réalité augmentée, en utilisant le logiciel Unity et le plugin Vuforia.</p>
+<p class="align-center"><em>Ajouter ici la vidéo de demo une fois que l'app Android sera prête</em></p>
+<p> </p>
+<p> </p>
+<p><img class="post__image" src="/media/posts/6/affiches-futures.jpg" alt="" width="1920" height="1295"></p>
             ]]>
         </content>
     </entry>
@@ -151,7 +191,7 @@
         <link href="/gallica-studio.html"/>
         <id>/gallica-studio.html</id>
 
-        <updated>2019-06-17T20:27:45+02:00</updated>
+        <updated>2019-06-18T01:05:41+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
@@ -218,17 +258,5 @@ for (let j = 0; j &lt; nbpoint; j++) {
 <p><img class="post__image--full img-fluid" src="/media/posts/7/mockup.png" alt="" width="3000" height="1842"></p>
             ]]>
         </content>
-    </entry>
-    <entry>
-        <title>Notvetica</title>
-        <author>
-            <name>oswn</name>
-        </author>
-        <link href="/notvetica.html"/>
-        <id>/notvetica.html</id>
-
-        <updated>2019-06-13T11:58:06+02:00</updated>
-            <summary></summary>
-        <content></content>
     </entry>
 </feed>

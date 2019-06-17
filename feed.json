@@ -44,30 +44,43 @@
             "url": "/charlie-delahousse.html",
             "title": "Charlie Delahousse",
             "summary": "Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format one-page. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai&hellip;",
-            "content_html": "<h2 id=\"mcetoc_1ddiououu0\">Portfolio de Charlie Delahousse</h2>\n<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format <em>one-page</em>. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>\n<p>Le site est accessible via ce lien: <a href=\"https://charlie.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">https://charlie.oswin.io</a>, et le code est disponible sur <a href=\"https://github.com/0swin/charlie.oswin.io\">GitHub</a>.</p>\n<div class=\"row\">\n<div class=\"col\">\n<p class=\"align-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-avant.png\" alt=\"Portfolio Charlie Delahousse Avant\" width=\"1540\" height=\"1016\">Avant</p>\n</div>\n<div class=\"col\">\n<p class=\"align-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-apres.png\" alt=\"Portfolio Charlie Delahousse après\" width=\"1540\" height=\"1016\">Après</p>\n</div>\n</div>",
+            "content_html": "<h2 id=\"mcetoc_1ddiououu0\">Portfolio de Charlie Delahousse</h2>\n<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format <em>one-page</em>. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading</em>.<br>L'arrière plan est une simulation de particules faite en p5.js par Charlie.</p>\n<p>Le site est accessible via ce lien: <a href=\"https://charlie.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">https://charlie.oswin.io</a>, et le code est disponible sur <a href=\"https://github.com/0swin/charlie.oswin.io\">GitHub</a>.</p>\n<p> </p>\n<div class=\"row\">\n<div class=\"col\">\n<p class=\"text-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-avant.png\" alt=\"Portfolio Charlie Delahousse Avant\" width=\"1540\" height=\"1016\">Avant</p>\n</div>\n<div class=\"col\">\n<p class=\"text-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-apres.png\" alt=\"Portfolio Charlie Delahousse après\" width=\"1540\" height=\"1016\">Après</p>\n</div>\n</div>\n<p> </p>\n<p> </p>\n<p class=\"text-center\"><img class=\"post__image shadow rounded-lg\" src=\"/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio.jpg\" alt=\"\" width=\"1440\" height=\"1949\">Liste des projets</p>\n<p> </p>\n<p> </p>\n<p class=\"text-center\"><img class=\"post__image shadow rounded-lg\" src=\"/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio1.jpg\" alt=\"\" width=\"1440\" height=\"900\">Page d'un projet</p>",
             "image": "/media/posts/11/Untitled-4.jpg",
             "author": {
                 "name": "oswn"
             },
             "tags": [
             ],
-            "date_published": "2019-06-01T00:00:00+02:00",
-            "date_modified": "2019-06-17T20:12:41+02:00"
+            "date_published": "2019-06-01T00:05:00+02:00",
+            "date_modified": "2019-06-18T01:21:35+02:00"
+        },
+        {
+            "id": "/notvetica.html",
+            "url": "/notvetica.html",
+            "title": "Notvetica",
+            "image": "/media/posts/10/thumbnail-notvetica.jpg",
+            "author": {
+                "name": "oswn"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-01-01T00:06:00+01:00",
+            "date_modified": "2019-06-18T00:35:34+02:00"
         },
         {
             "id": "/futur-en-seine.html",
             "url": "/futur-en-seine.html",
             "title": "Futur.E.S",
-            "summary": "Futur.E.SFutur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5&hellip;",
-            "content_html": "<h2 id=\"mcetoc_1ddjecdoq0\">Futur.E.S</h2>\n<p>Futur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>\n<p>Projet réalisé en collaboration avec <a href=\"https://charlie.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">Charlie Delahousse</a>, <a href=\"https://hugodepagniat.dyjix.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Hugo Depagniat</a>, <a href=\"http://charlie-j.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Charlie Josserand</a> et <a href=\"https://melilun.ml\" target=\"_blank\" rel=\"noopener noreferrer\">Mélissa Luntadila</a>.</p>\n<p>Pour ce projet, j'ai réalisé la modélisation et l'animation de la scène sur la réalité virtuelle, ainsi que le texturing, éclairage et compositing des autres scènes.</p>\n<p> </p>\n<p><img class=\"post__image\" src=\"/media/posts/6/affiches-futures.jpg\" alt=\"\" width=\"1920\" height=\"1295\"> </p>",
+            "summary": "Futur.E.SFutur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Projet réalisé en collaboration avec Charlie Delahousse, Hugo Depagniat,&hellip;",
+            "content_html": "<h2 id=\"mcetoc_1ddjecdoq0\">Futur.E.S</h2>\n<p>Futur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement.</p>\n<p>Projet réalisé en collaboration avec <a href=\"https://charlie.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">Charlie Delahousse</a>, <a href=\"https://hugodepagniat.dyjix.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Hugo Depagniat</a>, <a href=\"http://charlie-j.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Charlie Josserand</a> et <a href=\"https://melilun.ml\" target=\"_blank\" rel=\"noopener noreferrer\">Mélissa Luntadila</a>.</p>\n<p>Pour ce projet, j'ai réalisé la modélisation et l'animation de la scène sur la réalité virtuelle, ainsi que le texturing, éclairage et compositing des autres scènes.</p>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddjppp871\">Notre concept</h2>\n<blockquote>\n<p>Inviter à un festival d'innovation à l'aide de visuels représentant le futur sans tomber dans la dystopie </p>\n</blockquote>\n<p> </p>\n<p> </p>\n<p>Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>\n<p> </p>\n<p class=\"text-center\"><img class=\"post__image\" src=\"/media/posts/6/64475046_2493169904066982_2855128369563959296_n.jpg\" alt=\"\" width=\"1296\" height=\"1728\"> <em>Charlie Delahousse</em></p>\n<p class=\"text-center\"><img class=\"post__image--full\" src=\"/media/posts/6/moodboards-futures\" alt=\"\" width=\"1415\" height=\"1774\"><em>Moodboards</em></p>\n<p> </p>\n<div class=\"embed-responsive embed-responsive-18by9\">\n<figure class=\"post__video\"><iframe width=\"300\" height=\"150\" src=\"https://www.youtube-nocookie.com/embed/D8h1coWLLew?autoplay=1&amp;loop=1&amp;color=white&amp;modestbranding=1&amp;rel=0&amp;amp\" allowfullscreen=\"allowfullscreen\" mute=\"\" autoplay=\"autoplay\" loop=\"loop\" ></iframe></figure>\n</div>\n<p> </p>\n<p> </p>\n<p>Afin d'amener une sixième thématique à ce projet, nous avons voulu transformer ces affiches vidéo en des affiches en réalité augmentée, en utilisant le logiciel Unity et le plugin Vuforia.</p>\n<p class=\"align-center\"><em>Ajouter ici la vidéo de demo une fois que l'app Android sera prête</em></p>\n<p> </p>\n<p> </p>\n<p><img class=\"post__image\" src=\"/media/posts/6/affiches-futures.jpg\" alt=\"\" width=\"1920\" height=\"1295\"></p>",
             "image": "/media/posts/6/thumbnail.jpg",
             "author": {
                 "name": "oswn"
             },
             "tags": [
             ],
-            "date_published": "2019-01-01T00:04:00+01:00",
-            "date_modified": "2019-06-17T23:12:39+02:00"
+            "date_published": "2019-01-01T00:02:00+01:00",
+            "date_modified": "2019-06-18T01:11:58+02:00"
         },
         {
             "id": "/gallica-studio.html",
@@ -81,21 +94,8 @@
             },
             "tags": [
             ],
-            "date_published": "2019-01-01T00:03:00+01:00",
-            "date_modified": "2019-06-17T20:27:45+02:00"
-        },
-        {
-            "id": "/notvetica.html",
-            "url": "/notvetica.html",
-            "title": "Notvetica",
-            "image": "/media/posts/10/thumbnail-notvetica.jpg",
-            "author": {
-                "name": "oswn"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-01-01T00:02:00+01:00",
-            "date_modified": "2019-06-13T11:58:06+02:00"
+            "date_published": "2019-01-01T00:01:00+01:00",
+            "date_modified": "2019-06-18T01:05:41+02:00"
         }
     ]
 }
