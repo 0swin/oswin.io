@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-17T18:55:06+02:00</updated>
+    <updated>2019-06-17T20:12:45+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -92,18 +92,19 @@
         <link href="/charlie-delahousse.html"/>
         <id>/charlie-delahousse.html</id>
 
-        <updated>2019-06-17T16:27:01+02:00</updated>
+        <updated>2019-06-17T20:12:41+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/11/Untitled-4.jpg" alt="" />
-                    Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu, le tout étant&hellip;
+                    Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format one-page. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="/media/posts/11/Untitled-4.jpg" alt="" />
                 <h2 id="mcetoc_1ddiououu0">Portfolio de Charlie Delahousse</h2>
-<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>
+<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format <em>one-page</em>. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>
+<p>Le site est accessible via ce lien: <a href="https://charlie.oswin.io" target="_blank" rel="noopener noreferrer">https://charlie.oswin.io</a>, et le code est disponible sur <a href="https://github.com/0swin/charlie.oswin.io">GitHub</a>.</p>
 <div class="row">
 <div class="col">
 <p class="align-center"><img class="post__image" src="/media/posts/11/charlie-avant.png" alt="Portfolio Charlie Delahousse Avant" width="1540" height="1016">Avant</p>

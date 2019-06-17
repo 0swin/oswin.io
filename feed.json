@@ -43,8 +43,8 @@
             "id": "/charlie-delahousse.html",
             "url": "/charlie-delahousse.html",
             "title": "Charlie Delahousse",
-            "summary": "Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu, le tout étant&hellip;",
-            "content_html": "<h2 id=\"mcetoc_1ddiououu0\">Portfolio de Charlie Delahousse</h2>\n<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>\n<div class=\"row\">\n<div class=\"col\">\n<p class=\"align-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-avant.png\" alt=\"Portfolio Charlie Delahousse Avant\" width=\"1540\" height=\"1016\">Avant</p>\n</div>\n<div class=\"col\">\n<p class=\"align-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-apres.png\" alt=\"Portfolio Charlie Delahousse après\" width=\"1540\" height=\"1016\">Après</p>\n</div>\n</div>",
+            "summary": "Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format one-page. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai&hellip;",
+            "content_html": "<h2 id=\"mcetoc_1ddiououu0\">Portfolio de Charlie Delahousse</h2>\n<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine, au format <em>one-page</em>. Étant donnée la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>\n<p>Le site est accessible via ce lien: <a href=\"https://charlie.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">https://charlie.oswin.io</a>, et le code est disponible sur <a href=\"https://github.com/0swin/charlie.oswin.io\">GitHub</a>.</p>\n<div class=\"row\">\n<div class=\"col\">\n<p class=\"align-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-avant.png\" alt=\"Portfolio Charlie Delahousse Avant\" width=\"1540\" height=\"1016\">Avant</p>\n</div>\n<div class=\"col\">\n<p class=\"align-center\"><img class=\"post__image\" src=\"/media/posts/11/charlie-apres.png\" alt=\"Portfolio Charlie Delahousse après\" width=\"1540\" height=\"1016\">Après</p>\n</div>\n</div>",
             "image": "/media/posts/11/Untitled-4.jpg",
             "author": {
                 "name": "oswn"
@@ -52,7 +52,7 @@
             "tags": [
             ],
             "date_published": "2019-06-01T00:00:00+02:00",
-            "date_modified": "2019-06-17T16:27:01+02:00"
+            "date_modified": "2019-06-17T20:12:41+02:00"
         },
         {
             "id": "/futur-en-seine.html",

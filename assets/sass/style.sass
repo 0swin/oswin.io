@@ -1,18 +1,30 @@
+// LIGHT THEME
 \:root
   --text: #3B3B3B
   --highlight: #4fc6fa
   --background: #ffffff
   --shadow: rgba(0, 0, 0, 0.18)
-  --badgebg: rgba(0, 0, 0, 0.35)
+  --badgebg: rgba(0, 0, 0, 0.40)
   --quote: #e3e3e3
+  @media (prefers-color-scheme: dark)
+    --text: #FFFFFF
+    --highlight: #4fc6fa
+    --background: #2a2933
+    --shadow: rgba(0, 0, 0, 0.35)
+    --badgebg: rgba(0, 0, 0, 0.40)
+    --quote: #e3e3e3
 
 *
   transition: padding 0.3s
+  transition: background-color 0.3s
     
 // *
 //   outline: solid 0.25rem hsla(210, 100%, 50%, 0.1) !important
 //   box-shadow: none !important
 //   filter: none !important
+
+body
+  color: var(--text)
 
 img
   height: auto
@@ -171,7 +183,7 @@ blockquote
     a
       text-decoration: none
       h2, p.h5
-        color: var(--background)!important
+        color: #ffffff
         text-shadow: 0px 2px 16px var(--shadow)
     .badges
       position: absolute
@@ -183,7 +195,7 @@ blockquote
   padding-left: 0
   .badge
     background-color: var(--badgebg)
-    color: var(--background)!important
+    color: #ffffff
     margin-right: 0.3rem
 
 
