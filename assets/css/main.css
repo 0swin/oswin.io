@@ -19,6 +19,8 @@ a.logo { color: var(--text); font-family: "Montserrat" !important; font-size: 2r
 
 a.logo:active, a.logo:hover, a.logo:focus { color: var(--text) !important; text-decoration: none !important; }
 
+pre { padding: 2.5rem !important; -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); }
+
 nav { height: 100vh; margin: 0 !important; padding: 0 !important; }
 
 @media screen and (max-width: 767px) { nav { -webkit-box-shadow: 0px 0px 16px var(--shadow); box-shadow: 0px 0px 16px var(--shadow); left: 0; position: absolute !important; top: 0; -webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%); -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; z-index: 1; }
@@ -52,8 +54,6 @@ article a.logo { display: none; text-align: center; }
 h1, h2, h3, h4, h5, .h5 { color: var(--text); font-family: 'Work Sans'; font-weight: 700; }
 
 h1 { font-size: 2rem; }
-
-code { background-color: #f6f6f6; font-family: Monaco,"Courier New", monospace; font-size: .9375rem; }
 
 blockquote { padding: 0 15%; }
 
