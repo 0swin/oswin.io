@@ -9,6 +9,7 @@
 <link rel="stylesheet" href=/assets/css/style.css?v=82ce803f3b3eb23ca9cd95320e3195cd>
 <link rel="stylesheet" href=/assets/css/photoswipe.css?v=a78e12d3a036307b9ef08fc063278e02>
 <link rel="stylesheet" href=/assets/css/default-skin.css?v=1ce09d402b4c3aee84ed6299f793cd21>
+<link rel="stylesheet" href=/assets/css/prism.css?v=8028bd5aa682d54836466660049365fa>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/css?family=Montserrat:700|Work+Sans:500,600,800,900&display=swap">
@@ -67,8 +68,19 @@
 				<p> </p>
 <h2>Gallica Studio</h2>
 <p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>
-<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation.</p>
-<figure class="post__image--full"><img  src="/media/posts/7/carbon-5.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/media/posts/7/responsive/carbon-5-xs.png 300w ,/media/posts/7/responsive/carbon-5-sm.png 480w ,/media/posts/7/responsive/carbon-5-md.png 768w ,/media/posts/7/responsive/carbon-5-lg.png 1024w"  alt="" width="1724" height="514"></figure>
+<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation, à l'aide de la bibliothèque <a href="https://p5js.org">p5.js</a>.</p>
+<p>Projet réalisé en collaboration avec <a href="https://melilun.ml" target="_blank" rel="noopener noreferrer">Mélissa Luntadila</a> et <a href="http://alexcollin.fr" target="_blank" rel="noopener noreferrer">Alex Collin</a>.</p>
+<p> </p>
+<pre class="language-json"><code>{
+  "date": "1920-12-25",
+  "datestamp": "2019-04-17",
+  "identifier": "http://gallica.bnf.fr/ark:/12148/bpt6k4397802r",
+  "contributor": "Seurre, Jules (1804-1874). Directeur de publication",
+  "publisher": " (Chalon-sur-Saône)",
+  "source": "Bibliothèque nationale de France, département Droit, économie, politique, MICR D-15085",
+  "title": "Courrier de Saône-et-Loire : journal politique et judiciaire",
+  "relation": "Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34366345x"
+},</code></pre>
 <p class="align-center"><em>Exemple des métadonnées d'un document, au format JSON</em></p>
 <p> </p>
 <p> </p>
@@ -90,11 +102,21 @@
 <figure class="post__image--full"><img  src="/media/posts/7/iterationsArtboard-4.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/media/posts/7/responsive/iterationsArtboard-4-xs.png 300w ,/media/posts/7/responsive/iterationsArtboard-4-sm.png 480w ,/media/posts/7/responsive/iterationsArtboard-4-md.png 768w ,/media/posts/7/responsive/iterationsArtboard-4-lg.png 1024w"  alt="" width="756" height="793"></figure>On modifie la tendaison des cordes pour mieux visualiser le nombre de mots </p>
 </div>
 </div>
-<figure class="post__image--full"><img  src="/media/posts/7/carbon-6.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/media/posts/7/responsive/carbon-6-xs.png 300w ,/media/posts/7/responsive/carbon-6-sm.png 480w ,/media/posts/7/responsive/carbon-6-md.png 768w ,/media/posts/7/responsive/carbon-6-lg.png 1024w"  alt="" width="1182" height="478"></figure>
+<p> </p>
+<pre class="language-js"><code>fill(255)
+for (let j = 0; j &lt; nbpoint; j++) {
+  let angle = map(j, 0, nbpoint, 0 - HALF_PI, TWO_PI - HALF_PI)
+  let px2 = cos(angle) * (radius + radius / 100 + 15) + originx
+  let py2 = sin(angle) * (radius + radius / 100 + 15) + originy
+  textAlign(CENTER, CENTER)
+  text(alphabet[j].toUpperCase(), px2, py2)
+}</code></pre>
+<p class="align-center"><em>Exemple de code Javascript, permettant de placer les lettres de l'alphabet  autour d'un cercle</em></p>
 <p> </p>
 <p> </p>
 <h2>Réalisation</h2>
 <p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>
+<p> </p>
 <figure class="post__image--full"><img  src="/media/posts/7/affiches-1.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/media/posts/7/responsive/affiches-1-xs.png 300w ,/media/posts/7/responsive/affiches-1-sm.png 480w ,/media/posts/7/responsive/affiches-1-md.png 768w ,/media/posts/7/responsive/affiches-1-lg.png 1024w"  alt="" width="2483" height="1681"></figure>
 <figure class="post__image--full"><img  src="/media/posts/7/affiches-2.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/media/posts/7/responsive/affiches-2-xs.png 300w ,/media/posts/7/responsive/affiches-2-sm.png 480w ,/media/posts/7/responsive/affiches-2-md.png 768w ,/media/posts/7/responsive/affiches-2-lg.png 1024w"  alt="" width="2483" height="1681"></figure>
 <figure class="post__image--full img-fluid"><img  src="/media/posts/7/mockup.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/media/posts/7/responsive/mockup-xs.png 300w ,/media/posts/7/responsive/mockup-sm.png 480w ,/media/posts/7/responsive/mockup-md.png 768w ,/media/posts/7/responsive/mockup-lg.png 1024w"  alt="" width="3000" height="1842"></figure>
@@ -105,6 +127,7 @@
 
 <script src=/assets/js/jquery.min.js?v=220afd743d9e9643852e31a135a9f3ae defer></script>
 <script src=/assets/js/app.js?v=3498df180c973edcf96f18336d8799b9 defer></script>
+<script src=/assets/js/prism.js?v=2991b22d92edb01337147a76b44c49c2 defer></script>
 <script src=/assets/js/instant.page.js?v=a4d17cfc31c9562b5f1e6e0df2be134b defer></script>
 
 </html>

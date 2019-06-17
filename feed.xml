@@ -3,7 +3,7 @@
     <title>Nicolas Roger - Porfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-17T15:32:30+02:00</updated>
+    <updated>2019-06-17T16:34:49+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -92,18 +92,18 @@
         <link href="/charlie-delahousse.html"/>
         <id>/charlie-delahousse.html</id>
 
-        <updated>2019-06-17T15:32:26+02:00</updated>
+        <updated>2019-06-17T16:27:01+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/11/Untitled-4.jpg" alt="" />
-                    Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu Avant Après
+                    Portfolio de Charlie DelahousseÀ partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu, le tout étant&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="/media/posts/11/Untitled-4.jpg" alt="" />
                 <h2 id="mcetoc_1ddiououu0">Portfolio de Charlie Delahousse</h2>
-<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu</p>
+<p>À partir des maquettes produites par Charlie, j'ai codé son site vitrine. Le site est un one-page. Au vu de la quantité de contenu, le tout étant sur une seule page, j'ai dû optimiser le chargement de ce dernier en utilisant des techniques de <em>lazy-loading.</em></p>
 <div class="row">
 <div class="col">
 <p class="align-center"><img class="post__image" src="/media/posts/11/charlie-avant.png" alt="Portfolio Charlie Delahousse Avant" width="1540" height="1016">Avant</p>
@@ -145,7 +145,7 @@
         <link href="/gallica-studio.html"/>
         <id>/gallica-studio.html</id>
 
-        <updated>2019-06-17T11:31:12+02:00</updated>
+        <updated>2019-06-17T16:34:45+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
@@ -158,8 +158,19 @@
                 <p id="mcetoc_1ddi7tslk0"> </p>
 <h2 id="mcetoc_1ddgi8amp0">Gallica Studio</h2>
 <p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>
-<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation.</p>
-<p><img class="post__image--full" src="/media/posts/7/carbon-5.png" alt="" width="1724" height="514"></p>
+<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation, à l'aide de la bibliothèque <a href="https://p5js.org">p5.js</a>.</p>
+<p>Projet réalisé en collaboration avec <a href="https://melilun.ml" target="_blank" rel="noopener noreferrer">Mélissa Luntadila</a> et <a href="http://alexcollin.fr" target="_blank" rel="noopener noreferrer">Alex Collin</a>.</p>
+<p> </p>
+<pre class="language-json"><code>{
+  "date": "1920-12-25",
+  "datestamp": "2019-04-17",
+  "identifier": "http://gallica.bnf.fr/ark:/12148/bpt6k4397802r",
+  "contributor": "Seurre, Jules (1804-1874). Directeur de publication",
+  "publisher": " (Chalon-sur-Saône)",
+  "source": "Bibliothèque nationale de France, département Droit, économie, politique, MICR D-15085",
+  "title": "Courrier de Saône-et-Loire : journal politique et judiciaire",
+  "relation": "Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34366345x"
+},</code></pre>
 <p class="align-center"><em>Exemple des métadonnées d'un document, au format JSON</em></p>
 <p> </p>
 <p> </p>
@@ -181,11 +192,21 @@
 <p><img class="post__image--full" src="/media/posts/7/iterationsArtboard-4.png" alt="" width="756" height="793">On modifie la tendaison des cordes pour mieux visualiser le nombre de mots </p>
 </div>
 </div>
-<p><img class="post__image--full" src="/media/posts/7/carbon-6.png" alt="" width="1182" height="478"></p>
-<p id="mcetoc_1ddi7ucp31"> </p>
+<p> </p>
+<pre class="language-js"><code>fill(255)
+for (let j = 0; j &lt; nbpoint; j++) {
+  let angle = map(j, 0, nbpoint, 0 - HALF_PI, TWO_PI - HALF_PI)
+  let px2 = cos(angle) * (radius + radius / 100 + 15) + originx
+  let py2 = sin(angle) * (radius + radius / 100 + 15) + originy
+  textAlign(CENTER, CENTER)
+  text(alphabet[j].toUpperCase(), px2, py2)
+}</code></pre>
+<p id="mcetoc_1ddi7ucp31" class="align-center"><em>Exemple de code Javascript, permettant de placer les lettres de l'alphabet  autour d'un cercle</em></p>
+<p> </p>
 <p> </p>
 <h2 id="mcetoc_1ddgoca7l2">Réalisation</h2>
 <p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>
+<p> </p>
 <p><img class="post__image--full" src="/media/posts/7/affiches-1.png" alt="" width="2483" height="1681"></p>
 <p><img class="post__image--full" src="/media/posts/7/affiches-2.png" alt="" width="2483" height="1681"></p>
 <p><img class="post__image--full img-fluid" src="/media/posts/7/mockup.png" alt="" width="3000" height="1842"></p>
