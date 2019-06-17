@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Nicolas Roger - Porfolio",
+    "title": "Nicolas Roger - Portfolio",
     "description": "",
     "home_page_url": "",
     "feed_url": "/feed.json",
@@ -37,7 +37,7 @@
             "tags": [
             ],
             "date_published": "2019-06-13T15:53:14+02:00",
-            "date_modified": "2019-06-16T20:56:26+02:00"
+            "date_modified": "2019-06-17T22:51:18+02:00"
         },
         {
             "id": "/charlie-delahousse.html",
@@ -57,9 +57,9 @@
         {
             "id": "/futur-en-seine.html",
             "url": "/futur-en-seine.html",
-            "title": "Futur en Seine",
-            "summary": "dqddddq",
-            "content_html": "dqddddq",
+            "title": "Futur.E.S",
+            "summary": "Futur.E.SFutur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5&hellip;",
+            "content_html": "<h2 id=\"mcetoc_1ddjecdoq0\">Futur.E.S</h2>\n<p>Futur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>\n<p>Projet réalisé en collaboration avec <a href=\"https://charlie.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">Charlie Delahousse</a>, <a href=\"https://hugodepagniat.dyjix.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Hugo Depagniat</a>, <a href=\"http://charlie-j.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Charlie Josserand</a> et <a href=\"https://melilun.ml\" target=\"_blank\" rel=\"noopener noreferrer\">Mélissa Luntadila</a>.</p>\n<p>Pour ce projet, j'ai réalisé la modélisation et l'animation de la scène sur la réalité virtuelle, ainsi que le texturing, éclairage et compositing des autres scènes.</p>\n<p> </p>\n<p><img class=\"post__image\" src=\"/media/posts/6/affiches-futures.jpg\" alt=\"\" width=\"1920\" height=\"1295\"> </p>",
             "image": "/media/posts/6/thumbnail.jpg",
             "author": {
                 "name": "oswn"
@@ -67,14 +67,14 @@
             "tags": [
             ],
             "date_published": "2019-01-01T00:04:00+01:00",
-            "date_modified": "2019-06-14T16:21:04+02:00"
+            "date_modified": "2019-06-17T23:12:39+02:00"
         },
         {
             "id": "/gallica-studio.html",
             "url": "/gallica-studio.html",
             "title": "Gallica Studio",
             "summary": " Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5&hellip;",
-            "content_html": "<p id=\"mcetoc_1ddi7tslk0\"> </p>\n<h2 id=\"mcetoc_1ddgi8amp0\">Gallica Studio</h2>\n<p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>\n<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation, à l'aide de la bibliothèque <a href=\"https://p5js.org\">p5.js</a>.</p>\n<p>Projet réalisé en collaboration avec <a href=\"https://melilun.ml\" target=\"_blank\" rel=\"noopener noreferrer\">Mélissa Luntadila</a> et <a href=\"http://alexcollin.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Alex Collin</a>.</p>\n<p> </p>\n<pre class=\"language-json\"><code>{\n  \"date\": \"1920-12-25\",\n  \"datestamp\": \"2019-04-17\",\n  \"identifier\": \"http://gallica.bnf.fr/ark:/12148/bpt6k4397802r\",\n  \"contributor\": \"Seurre, Jules (1804-1874). Directeur de publication\",\n  \"publisher\": \" (Chalon-sur-Saône)\",\n  \"source\": \"Bibliothèque nationale de France, département Droit, économie, politique, MICR D-15085\",\n  \"title\": \"Courrier de Saône-et-Loire : journal politique et judiciaire\",\n  \"relation\": \"Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34366345x\"\n},</code></pre>\n<p class=\"align-center\"><em>Exemple des métadonnées d'un document, au format JSON</em></p>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgls5qq0\">Notre concept</h2>\n<blockquote>\n<p class=\"align-left\">Visualiser l'usage des lettres de l'alphabet dans les titres de périodiques au cours du temps</p>\n</blockquote>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgm22i01\">Itérations</h2>\n<div class=\"row\">\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-2.png\" alt=\"\" width=\"756\" height=\"793\">On trace les titres en reliant les lettres de l'alphabet dans un cercle</p>\n</div>\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-3.png\" alt=\"\" width=\"756\" height=\"793\">On baisse l'opacité pour rendre plus visible les traits qui se superposent</p>\n</div>\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-4.png\" alt=\"\" width=\"756\" height=\"793\">On modifie la tendaison des cordes pour mieux visualiser le nombre de mots </p>\n</div>\n</div>\n<p> </p>\n<pre class=\"language-js\"><code>fill(255)\nfor (let j = 0; j &lt; nbpoint; j++) {\n  let angle = map(j, 0, nbpoint, 0 - HALF_PI, TWO_PI - HALF_PI)\n  let px2 = cos(angle) * (radius + radius / 100 + 15) + originx\n  let py2 = sin(angle) * (radius + radius / 100 + 15) + originy\n  textAlign(CENTER, CENTER)\n  text(alphabet[j].toUpperCase(), px2, py2)\n}</code></pre>\n<p id=\"mcetoc_1ddi7ucp31\" class=\"align-center\"><em>Exemple de code Javascript, permettant de placer les lettres de l'alphabet  autour d'un cercle</em></p>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgoca7l2\">Réalisation</h2>\n<p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>\n<p> </p>\n<p><img class=\"post__image--full\" src=\"/media/posts/7/affiches-1.png\" alt=\"\" width=\"2483\" height=\"1681\"></p>\n<p><img class=\"post__image--full\" src=\"/media/posts/7/affiches-2.png\" alt=\"\" width=\"2483\" height=\"1681\"></p>\n<p><img class=\"post__image--full img-fluid\" src=\"/media/posts/7/mockup.png\" alt=\"\" width=\"3000\" height=\"1842\"></p>",
+            "content_html": "<p id=\"mcetoc_1ddi7tslk0\"> </p>\n<h2 id=\"mcetoc_1ddgi8amp0\">Gallica Studio</h2>\n<p>Gallica Studio est le laboratoire d'innovation de Gallica, la bibliothèque numérique de la <strong>Bibliothèque nationale de France</strong> et de ses partenaires, en libre accès depuis 1997 et regroupant plus de 5 millions de documents.</p>\n<p>Via l'API, nous avons eu accès aux métadonnées de ces 5 millions de documents, et devions les filtrer pour produire une visualisation, à l'aide de la bibliothèque <a href=\"https://p5js.org\">p5.js</a>.</p>\n<p>Projet réalisé en collaboration avec <a href=\"https://melilun.ml\" target=\"_blank\" rel=\"noopener noreferrer\">Mélissa Luntadila</a> et <a href=\"http://alexcollin.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Alex Collin</a>.</p>\n<p> </p>\n<pre class=\"language-json\"><code>{\n  \"date\": \"1920-12-25\",\n  \"datestamp\": \"2019-04-17\",\n  \"identifier\": \"http://gallica.bnf.fr/ark:/12148/bpt6k4397802r\",\n  \"contributor\": \"Seurre, Jules (1804-1874). Directeur de publication\",\n  \"publisher\": \" (Chalon-sur-Saône)\",\n  \"source\": \"Bibliothèque nationale de France, département Droit, économie, politique, MICR D-15085\",\n  \"title\": \"Courrier de Saône-et-Loire : journal politique et judiciaire\",\n  \"relation\": \"Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34366345x\"\n},</code></pre>\n<p class=\"align-center\"><em>Métadonnées d'un document, au format JSON</em></p>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgls5qq0\">Notre concept</h2>\n<blockquote>\n<p class=\"align-left\">Visualiser l'usage des lettres de l'alphabet dans les titres de périodiques au cours du temps</p>\n</blockquote>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgm22i01\">Itérations</h2>\n<div class=\"row\">\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-2.png\" alt=\"\" width=\"756\" height=\"793\">On trace les titres en reliant les lettres de l'alphabet dans un cercle</p>\n</div>\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-3.png\" alt=\"\" width=\"756\" height=\"793\">On baisse l'opacité pour rendre plus visible les traits qui se superposent</p>\n</div>\n<div class=\"col-sm-4\">\n<p><img class=\"post__image--full\" src=\"/media/posts/7/iterationsArtboard-4.png\" alt=\"\" width=\"756\" height=\"793\">On modifie la tendaison des cordes pour mieux visualiser le nombre de mots </p>\n</div>\n</div>\n<p> </p>\n<pre class=\"language-js\"><code>fill(255)\nfor (let j = 0; j &lt; nbpoint; j++) {\n  let angle = map(j, 0, nbpoint, 0 - HALF_PI, TWO_PI - HALF_PI)\n  let px2 = cos(angle) * (radius + radius / 100 + 15) + originx\n  let py2 = sin(angle) * (radius + radius / 100 + 15) + originy\n  textAlign(CENTER, CENTER)\n  text(alphabet[j].toUpperCase(), px2, py2)\n}</code></pre>\n<p id=\"mcetoc_1ddi7ucp31\" class=\"align-center\"><em>Code en p5js permettant de placer les lettres de l'alphabet  autour d'un cercle</em></p>\n<p> </p>\n<p> </p>\n<h2 id=\"mcetoc_1ddgoca7l2\">Réalisation</h2>\n<p>Pour la version finale, nous avons ajouté un dégradé sur les traits, allant du bleu au rose pour les débuts et fins de mots, puis avons mis en page notre visuel sur des affiches</p>\n<p> </p>\n<p><img class=\"post__image--full\" src=\"/media/posts/7/affiches-1.png\" alt=\"\" width=\"2483\" height=\"1681\"></p>\n<p><img class=\"post__image--full\" src=\"/media/posts/7/affiches-2.png\" alt=\"\" width=\"2483\" height=\"1681\"></p>\n<p><img class=\"post__image--full img-fluid\" src=\"/media/posts/7/mockup.png\" alt=\"\" width=\"3000\" height=\"1842\"></p>",
             "image": "/media/posts/7/thumb-bnf.jpg",
             "author": {
                 "name": "oswn"
@@ -82,7 +82,7 @@
             "tags": [
             ],
             "date_published": "2019-01-01T00:03:00+01:00",
-            "date_modified": "2019-06-17T18:54:46+02:00"
+            "date_modified": "2019-06-17T20:27:45+02:00"
         },
         {
             "id": "/notvetica.html",

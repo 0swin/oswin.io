@@ -1,281 +1,268 @@
-// LIGHT THEME
 \:root
-  --text: #3B3B3B
-  --highlight: #4fc6fa
-  --background: #ffffff
-  --shadow: rgba(0, 0, 0, 0.18)
-  --badgebg: rgba(0, 0, 0, 0.40)
-  --quote: #e3e3e3
-  @media (prefers-color-scheme: dark)
-    --text: #FFFFFF
-    --highlight: #4fc6fa
-    --background: #2a2933
-    --shadow: rgba(0, 0, 0, 0.35)
-    --badgebg: rgba(0, 0, 0, 0.40)
-    --quote: #e3e3e3
+	--text: #3B3B3B
+	--highlight: #4fc6fa
+	--background: #ffffff
+	--shadow: rgba(0, 0, 0, 0.18)
+	--badgebg: rgba(0, 0, 0, 0.35)
+	--quote: #e3e3e3
+	@media (prefers-color-scheme: dark)
+		--text: #FFFFFF
+		--highlight: #4fc6fa
+		--background: #2a2933
+		--shadow: rgba(0, 0, 0, 0.35)
+		--badgebg: rgba(0, 0, 0, 0.40)
+		--quote: #e3e3e3
+
 
 *
-  transition: padding 0.3s
-  transition: background-color 0.3s
-    
-// *
-//   outline: solid 0.25rem hsla(210, 100%, 50%, 0.1) !important
-//   box-shadow: none !important
-//   filter: none !important
-
+	transition: padding 0.3s
+		
 body
-  color: var(--text)
-
-img
-  height: auto
-  max-width: 100%
-  vertical-align: top
+	color: var(--text)
 
 a
-  color: var(--highlight)
-  &:hover, &:focus, &:active
-    color: var(--highlight)
+	color: var(--highlight)
+	&:hover, &:focus, &:active
+		color: var(--highlight) 
+
+img
+	height: auto
+	max-width: 100%
+	vertical-align: top
 
 .visible
-  transform: translateX(0%)
-  transition: all 0.3s ease-out
+	transform: translateX(0%)
+	transition: all 0.3s ease-out
+
+.align-center
+	text-align: center
 
 .trigger
-  background: 0
-  cursor: pointer
-  float: right
-  font-size: 2rem
-  margin-right: 1.4rem!important
-  margin-top: 1.4rem!important
-  padding: 10px
-  position: relative
-  z-index: 2
-  @media screen and (min-width: 767px)
-    display: none
+	background: 0
+	cursor: pointer
+	float: right
+	font-size: 2rem
+	margin-right: 1.4rem!important
+	margin-top: 1.4rem!important
+	padding: 10px
+	position: relative
+	z-index: 2
+	@media screen and (min-width: 767px)
+		display: none
 
 a.logo
-  color: var(--text)
-  font-family: 'Montserrat'!important
-  font-size: 2rem
-  font-weight: bold
-  text-decoration: none!important
-  margin-bottom: 2rem
-  &:active, &:hover, &:focus
-    color: var(--text)!important
-    text-decoration: none!important
-
-pre
-  padding: 2.5rem!important
-  box-shadow: 0px 0px 16px var(--shadow)
+	color: var(--text)
+	font-family: 'Montserrat'!important
+	font-size: 2rem
+	font-weight: bold
+	text-decoration: none!important
+	margin-bottom: 2rem
+	&:active, &:hover, &:focus
+		color: var(--text)!important
+		text-decoration: none!important
 
 nav
-  height: 100vh
-  margin: 0!important
-  padding: 0!important
-  @media screen and (max-width: 767px)
-    box-shadow: 0px 0px 16px var(--shadow)
-    left: 0
-    position: absolute !important
-    top: 0
-    transform: translateX(-100%)
-    transition: all 0.3s ease-out
-    z-index: 1
-    a.logo
-      text-align: center
-  .nav-container
-    background: var(--background)
-    display: flex
-    flex-direction: column
-    font-family: 'Work Sans'
-    font-weight: 600
-    height: 100vh
-    padding: 3rem 1rem 3rem 3rem
-    position: fixed
-    top: 0
-    width: 100%
-    @media screen and (max-width: 767px)
-      padding: 2rem
-    ul
-      color: var(--text)
-      line-height: 2
-      list-style: none
-      padding-left: 0
-      text-transform: lowercase
-      .nom
-        font-weight: 800
-      li
-        a
-          text-decoration: underline
-          color: var(--text)
-          &:hover,
-          &:active
-            color: var(--highlight)
-    .social-icons-menu
-      align-self: flex-baseline
-      color: var(--text)
-      margin: auto 0 0 0
-      padding: 0
-      li
-        display: inline-block
-        font-size: 1.2rem
-        margin-right: 1rem
-        a
-          color: var(--text)
-          text-decoration: none
+	height: 100vh
+	margin: 0!important
+	padding: 0!important
+	@media screen and (max-width: 767px)
+		box-shadow: 0px 0px 16px var(--shadow)
+		left: 0
+		position: absolute !important
+		top: 0
+		transform: translateX(-100%)
+		transition: all 0.3s ease-out
+		z-index: 1
+		a.logo
+			text-align: center
+	.nav-container
+		background: var(--background)
+		display: flex
+		flex-direction: column
+		font-family: 'Work Sans'
+		font-weight: 600
+		height: 100vh
+		padding: 3rem 0 3rem 3rem
+		position: fixed
+		top: 0
+		width: 100%
+		@media screen and (max-width: 767px)
+			padding: 2rem
+		ul
+			color: var(--text)
+			line-height: 2
+			list-style: none
+			padding-left: 0
+			text-transform: lowercase
+			.nom
+				font-weight: 800
+			li
+				a
+					text-decoration: underline
+					color: var(--text)
+					&:hover,
+					&:active
+						color: var(--highlight)
+		.social-icons-menu
+			align-self: flex-baseline
+			color: var(--text)
+			margin: auto 0 0 0
+			padding: 0
+			li
+				display: inline-block
+				font-size: 1.2rem
+				margin-right: 1rem
+				a
+					color: var(--text)
+					text-decoration: none
 
 article
-  box-shadow: 0px 0px 16px var(--shadow)
-  display: box
-  width: 100%
-  z-index: 0
-  padding: 3rem!important
-  background-color: var(--background)
-  a.logo
-    display: none
-    text-align: center
-  @media screen and (max-width: 767px)
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0)
-    left: 0
-    position: absolute!important
-    top: 0
-    padding: 2rem!important
-    a.logo
-      display: block
+	box-shadow: 0px 0px 16px var(--shadow)
+	display: box
+	width: 100%
+	z-index: 0
+	background-color: var(--background)
+	padding: 3rem!important
+	a.logo
+		display: none
+		text-align: center
+	@media screen and (max-width: 767px)
+		box-shadow: 0px 0px 16px rgba(0, 0, 0, 0)
+		position: absolute!important
+		left: 0
+		top: 0
+		padding: 2rem!important
+		a.logo
+			display: block
 
 h1, h2, h3, h4, h5, .h5
-  color: var(--text)
-  font-family: 'Work Sans'
-  font-weight: 700
+	color: var(--text)
+	font-family: 'Work Sans'
+	font-weight: 700
 
 h1
-  font-size: 2rem
+	font-size: 2rem
+
+code
+	background-color: #f6f6f6
+	font-family: Monaco,"Courier New", monospace
+	font-size: .9375rem
 
 blockquote
-  padding: 0 15%
-  &::before
-    color: var(--quote)
-    content: "“"
-    display: block
-    font-size: 3rem
-    height: 0
-    line-height: 0.75
-    margin-left: -.85em
+	padding: 0 15%
+	&::before
+		color: var(--quote)
+		content: "“"
+		display: block
+		font-size: 3rem
+		height: 0
+		line-height: 0.75
+		margin-left: -.85em
 
 .thumbnail
-  border-radius: 6px
-  box-shadow: 0px 0px 16px var(--shadow)
-  padding-top: 56%
-  position: relative
-  overflow: hidden
-  max-width: 750px
-  display: block
-  img
-    position: absolute
-    top: 0
-    width: 100%
-    height: 100%
-  .content
-    height: 100%
-    margin: 0
-    position: absolute
-    top: 0
-    width: 95%
-    a
-      text-decoration: none
-      h2, p.h5
-        color: #ffffff
-        text-shadow: 0px 2px 16px var(--shadow)
-    .badges
-      position: absolute
-      bottom: 0
+	background-size: cover
+	border-radius: 6px
+	box-shadow: 0px 0px 16px var(--shadow)
+	padding-top: 56%
+	.content
+		height: 100%
+		margin: 0
+		position: absolute
+		top: 0
+		width: 95%
+		a
+			text-decoration: none
+			h2, p.h5
+				color: white
+				text-shadow: 0px 2px 16px var(--shadow)
+		.badges
+			position: absolute
+			bottom: 0
 
 .badges
-  list-style: none
-  padding-bottom: 0.4rem
-  padding-left: 0
-  .badge
-    background-color: var(--badgebg)
-    color: #ffffff
-    margin-right: 0.3rem
+	list-style: none
+	padding-bottom: 0.4rem
+	padding-left: 0
+	.badge
+		background-color: var(--badgebg)
+		color: white
+		margin-right: 0.3rem
 
 
 .featureImage
-  background-position: bottom
-  background-size: cover
-  margin-left: -3rem
-  margin-top: 2rem
-  padding-top: calc(100%/2)
-  width: calc(100% + 6rem)
-  @media screen and (max-width: 991px)
-      padding-top: calc(100%/1.5)
+	background-position: center
+	background-size: cover
+	margin-left: -3rem
+	margin-top: 2rem
+	padding-top: calc(100%/2)
+	width: calc(100% + 6rem)
+	@media screen and (max-width: 991px)
+			padding-top: calc(100%/1.5)
 
 .article
-  margin: 0 auto
-  max-width: 740px
+	margin: 0 auto
+	max-width: 740px
 
 .gallery
-  margin: 0 -0.53333rem
+	margin: 0 -0.53333rem
 
 @media all and (min-width: 20em)
-  .gallery
-    -ms-flex-wrap: wrap
-    -webkit-flex-wrap: wrap
-    display: -ms-flexbox
-    display: -webkit-box
-    display: -webkit-flex
-    display: flex
-    flex-wrap: wrap
+	.gallery
+		-ms-flex-wrap: wrap
+		-webkit-flex-wrap: wrap
+		display: -ms-flexbox
+		display: -webkit-box
+		display: -webkit-flex
+		display: flex
+		flex-wrap: wrap
 
 @media all and (min-width: 20em)
-  .gallery[data-columns="1"] .gallery__item
-    width: 100%
+	.gallery[data-columns="1"] .gallery__item
+		width: 100%
 
 @media all and (min-width: 30em)
-  .gallery[data-columns="2"] .gallery__item
-    width: 50%
+	.gallery[data-columns="2"] .gallery__item
+		width: 50%
 
 @media all and (min-width: 37.5em)
-  .gallery[data-columns="3"] .gallery__item
-    width: 33%
+	.gallery[data-columns="3"] .gallery__item
+		width: 33%
 
 @media all and (min-width: 56.25em)
-  .gallery[data-columns="4"] .gallery__item
-    width: 25%
+	.gallery[data-columns="4"] .gallery__item
+		width: 25%
 
 @media all and (min-width: 56.25em)
-  .gallery[data-columns="5"] .gallery__item
-    width: 20%
+	.gallery[data-columns="5"] .gallery__item
+		width: 20%
 
 @media all and (min-width: 56.25em)
-  .gallery[data-columns="6"] .gallery__item
-    width: 16.666%
+	.gallery[data-columns="6"] .gallery__item
+		width: 16.666%
 
 @media all and (min-width: 56.25em)
-  .gallery[data-columns="7"] .gallery__item
-    width: 14.285%
+	.gallery[data-columns="7"] .gallery__item
+		width: 14.285%
 
 @media all and (min-width: 56.25em)
-  .gallery[data-columns="8"] .gallery__item
-    width: 12.5%
+	.gallery[data-columns="8"] .gallery__item
+		width: 12.5%
 
 .gallery__item
-  margin: 0
-  padding: 0.53333rem
-  img
-    display: block
-    width: 100%
+	margin: 0
+	padding: 0.53333rem
+	img
+		display: block
+		width: 100%
 
 @media all and (min-width: 20em)
-  .gallery__item
-    width: 50%
+	.gallery__item
+		width: 50%
 
 @media all and (min-width: 30em)
-  .gallery__item
-    width: 33.333%
+	.gallery__item
+		width: 33.333%
 
 @media all and (min-width: 37.5em)
-  .gallery__item
-    width: 25%
-
-.align-center
-  text-align: center
+	.gallery__item
+		width: 25%

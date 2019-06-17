@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Nicolas Roger - Porfolio</title>
+    <title>Nicolas Roger - Portfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-17T20:12:45+02:00</updated>
+    <updated>2019-06-17T23:31:28+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
@@ -57,7 +57,7 @@
         <link href="/guirelandes.html"/>
         <id>/guirelandes.html</id>
 
-        <updated>2019-06-16T20:56:26+02:00</updated>
+        <updated>2019-06-17T22:51:18+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/12/guirelandes.jpg" alt="" />
@@ -117,24 +117,29 @@
         </content>
     </entry>
     <entry>
-        <title>Futur en Seine</title>
+        <title>Futur.E.S</title>
         <author>
             <name>oswn</name>
         </author>
         <link href="/futur-en-seine.html"/>
         <id>/futur-en-seine.html</id>
 
-        <updated>2019-06-14T16:21:04+02:00</updated>
+        <updated>2019-06-17T23:12:39+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/6/thumbnail.jpg" alt="" />
-                    dqddddq
+                    Futur.E.SFutur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="/media/posts/6/thumbnail.jpg" alt="" />
-                dqddddq
+                <h2 id="mcetoc_1ddjecdoq0">Futur.E.S</h2>
+<p>Futur.E.S est le festival de l’innovation numérique et durable. Nous avions pour mission de réaliser des affiches animées pour communiquer sur cet évènement. Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>
+<p>Projet réalisé en collaboration avec <a href="https://charlie.oswin.io" target="_blank" rel="noopener noreferrer">Charlie Delahousse</a>, <a href="https://hugodepagniat.dyjix.fr" target="_blank" rel="noopener noreferrer">Hugo Depagniat</a>, <a href="http://charlie-j.fr" target="_blank" rel="noopener noreferrer">Charlie Josserand</a> et <a href="https://melilun.ml" target="_blank" rel="noopener noreferrer">Mélissa Luntadila</a>.</p>
+<p>Pour ce projet, j'ai réalisé la modélisation et l'animation de la scène sur la réalité virtuelle, ainsi que le texturing, éclairage et compositing des autres scènes.</p>
+<p> </p>
+<p><img class="post__image" src="/media/posts/6/affiches-futures.jpg" alt="" width="1920" height="1295"> </p>
             ]]>
         </content>
     </entry>
@@ -146,7 +151,7 @@
         <link href="/gallica-studio.html"/>
         <id>/gallica-studio.html</id>
 
-        <updated>2019-06-17T18:54:46+02:00</updated>
+        <updated>2019-06-17T20:27:45+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />
@@ -172,7 +177,7 @@
   "title": "Courrier de Saône-et-Loire : journal politique et judiciaire",
   "relation": "Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34366345x"
 },</code></pre>
-<p class="align-center"><em>Exemple des métadonnées d'un document, au format JSON</em></p>
+<p class="align-center"><em>Métadonnées d'un document, au format JSON</em></p>
 <p> </p>
 <p> </p>
 <h2 id="mcetoc_1ddgls5qq0">Notre concept</h2>
@@ -202,7 +207,7 @@ for (let j = 0; j &lt; nbpoint; j++) {
   textAlign(CENTER, CENTER)
   text(alphabet[j].toUpperCase(), px2, py2)
 }</code></pre>
-<p id="mcetoc_1ddi7ucp31" class="align-center"><em>Exemple de code Javascript, permettant de placer les lettres de l'alphabet  autour d'un cercle</em></p>
+<p id="mcetoc_1ddi7ucp31" class="align-center"><em>Code en p5js permettant de placer les lettres de l'alphabet  autour d'un cercle</em></p>
 <p> </p>
 <p> </p>
 <h2 id="mcetoc_1ddgoca7l2">Réalisation</h2>
