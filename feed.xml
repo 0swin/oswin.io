@@ -3,12 +3,24 @@
     <title>Nicolas Roger - Portfolio</title>
     <link href="/feed.xml" rel="self" />
     <link href="" />
-    <updated>2019-06-18T01:33:15+02:00</updated>
+    <updated>2019-06-18T11:36:02+02:00</updated>
     <author>
         <name>oswn</name>
     </author>
     <id></id>
 
+    <entry>
+        <title>Lazy-load d&#x27;images dans boostrap</title>
+        <author>
+            <name>oswn</name>
+        </author>
+        <link href="/lazy-load-dimages-dans-boostrap.html"/>
+        <id>/lazy-load-dimages-dans-boostrap.html</id>
+
+        <updated>2019-06-18T01:45:01+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Waking up in Paris</title>
         <author>
@@ -92,9 +104,25 @@
         <link href="/notvetica.html"/>
         <id>/notvetica.html</id>
 
-        <updated>2019-06-18T01:22:41+02:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2019-06-18T11:35:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="/media/posts/10/thumbnail-notvetica.jpg" alt="" />
+                    La Notvetica est une police d'écriture linéale libre de droit. Mon but est de produire une police avec de nombreux caractères alternatifs. Dans les prochaines versions, j'aimerais la transformer en une&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="/media/posts/10/thumbnail-notvetica.jpg" alt="" />
+                <p>La Notvetica est une police d'écriture linéale libre de droit. Mon but est de produire une police avec de nombreux caractères alternatifs.<br>Dans les prochaines versions, j'aimerais la transformer en une "variable font", c'est à dire avec des propriétés modifiables par des sliders, permettant par exemple d'avoir une infinité de graisses possibles.</p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="/media/posts/10/gallery/notvetica_001.jpg" ><img src="/media/posts/10/gallery/notvetica_001-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/10/gallery/notvetica_003.jpg" ><img src="/media/posts/10/gallery/notvetica_003-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="/media/posts/10/gallery/notvetica_002.jpg" ><img src="/media/posts/10/gallery/notvetica_002-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+</div>
+<p class="align-center"><em>Cliquez sur une miniature pour ouvrir les posters en grand</em></p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Flatland</title>
@@ -104,9 +132,41 @@
         <link href="/flatland.html"/>
         <id>/flatland.html</id>
 
-        <updated>2019-06-18T01:33:11+02:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2019-06-18T11:25:19+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="/media/posts/14/thumbnail-flatland-2.jpg" alt="" />
+                    FlatlandFlatland est un roman de Edwin Abot dans lequel un carré apprend à découvrir le monde en trois dimensions. À partir de cet univers, nous devions produire une expérience interactive,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="/media/posts/14/thumbnail-flatland-2.jpg" alt="" />
+                <h2 id="mcetoc_1ddkqjr550">Flatland</h2>
+<p>Flatland est un roman de Edwin Abot dans lequel un carré apprend à découvrir le monde en trois dimensions.<br>À partir de cet univers, nous devions produire une expérience interactive, au travers de notre libre interprétation.</p>
+<p>Projet réalisé en collaboration avec <a href="http://liladuquet.fr" target="_blank" rel="noopener noreferrer">Lila Duquet</a>, <a href="https://mariambeejahangeer.dyjix.fr" target="_blank" rel="noopener noreferrer">Mariambee Jahangeer</a> et <a href="https://alexandrekaing.dyjix.fr" target="_blank" rel="noopener noreferrer">Alexandre Kaing</a>.</p>
+<p>Pour ce projet, j'ai été chargé du développement en JavaScript. </p>
+<p>L'expérience est accessible via ce lien: <a href="https://flatland.oswin.io" target="_blank" rel="noopener noreferrer">https://flatland.oswin.io</a>, et le code est disponible sur <a href="https://github.com/0swin/Flatland">GitHub</a>.</p>
+<p> </p>
+<p> </p>
+<h2 id="mcetoc_1ddkqkr8d1">Notre Concept</h2>
+<blockquote>Générer des avatars cubistes au passage d'utilisateurs devant une borne interactive</blockquote>
+<p> </p>
+<p> </p>
+<h2 id="mcetoc_1ddkrr8uv0">La Réalisation </h2>
+<p> </p>
+<p class="align-center text-center"><img class="post__image" src="/media/posts/14/flatlanders-iteration-1.png" alt="" width="2850" height="800"><em>Première itération des Flatlanders</em></p>
+<p> </p>
+<p>Les Flatlanders sont construits de manière modulaire : les éléments qui les constituent sont indépendants afin d’avoir une plus grande facilité d’adaptation aux  traits du visage. Malgré leur caractère très abstrait, certains éléments sont plus figuratifs (yeux et bouche) et permettent de s’adapter aux différentes expressions. Ils sont très facilement déclinables de part la redondance des formes utilisées et restent très différents.</p>
+<p> </p>
+<p class="align-center text-center"><img class="post__image" src="/media/posts/14/flatland-bibliotheque-delements.png" alt="" width="1708" height="820"><em>Bibliothèque d'éléments utilisés pour construire les Flatlanders</em></p>
+<p> </p>
+<p>Nous avons animé tous les éléments à l'aide de After Effects et de  <a href="https://airbnb.design/lottie/" target="_blank" rel="noopener noreferrer">Lottie</a>, un outil créé par AirBnb permettant d'exporter des animations en SVG animés, donc manipulables via du code.</p>
+<p>Enfin, nous détections les visages en JavaScript, et projetons un Flatlander généré aléatoirement.</p>
+<p> </p>
+<p class="align-center text-center"><img class="post__image" src="/media/posts/14/flatland-demo.jpg" alt="" width="1920" height="1083"><em>Exemple d'un flatlander</em></p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Charlie Delahousse</title>
@@ -116,7 +176,7 @@
         <link href="/charlie-delahousse.html"/>
         <id>/charlie-delahousse.html</id>
 
-        <updated>2019-06-18T01:23:37+02:00</updated>
+        <updated>2019-06-18T10:37:48+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/11/Untitled-4.jpg" alt="" />
@@ -132,18 +192,18 @@
 <p> </p>
 <div class="row">
 <div class="col">
-<p class="text-center"><img class="post__image" src="/media/posts/11/charlie-avant.png" alt="Portfolio Charlie Delahousse Avant" width="1540" height="1016">Avant</p>
+<p class="text-center align-center"><img class="post__image" src="/media/posts/11/charlie-avant.png" alt="Portfolio Charlie Delahousse Avant" width="1540" height="1016"><em>Avant</em></p>
 </div>
 <div class="col">
-<p class="text-center"><img class="post__image" src="/media/posts/11/charlie-apres.png" alt="Portfolio Charlie Delahousse après" width="1540" height="1016">Après</p>
+<p class="text-center align-center"><img class="post__image" src="/media/posts/11/charlie-apres.png" alt="Portfolio Charlie Delahousse après" width="1540" height="1016"><em>Après</em></p>
 </div>
 </div>
 <p> </p>
 <p> </p>
-<p class="text-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio.jpg" alt="" width="1440" height="1949">Liste des projets</p>
+<p class="text-center align-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio.jpg" alt="" width="1440" height="1949"><em>Liste des projets</em></p>
 <p> </p>
 <p> </p>
-<p class="text-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio1.jpg" alt="" width="1440" height="900">Page d'un projet</p>
+<p class="text-center align-center"><img class="post__image shadow rounded-lg" src="/media/posts/11/Screenshot_2019-06-18-Charlie-Delahousse-Portfolio1.jpg" alt="" width="1440" height="900"><em>Page d'un projet</em></p>
             ]]>
         </content>
     </entry>
@@ -155,7 +215,7 @@
         <link href="/futur-en-seine.html"/>
         <id>/futur-en-seine.html</id>
 
-        <updated>2019-06-18T01:11:58+02:00</updated>
+        <updated>2019-06-18T09:12:35+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/6/thumbnail.jpg" alt="" />
@@ -179,8 +239,10 @@
 <p> </p>
 <p>Nous avons décidé de nous axer sur les 5 grands thèmes du festival : Les médias, la réalité virtuelle, la robotique, le commerce et l’intelligence artificielle.</p>
 <p> </p>
-<p class="text-center"><img class="post__image" src="/media/posts/6/64475046_2493169904066982_2855128369563959296_n.jpg" alt="" width="1296" height="1728"> <em>Charlie Delahousse</em></p>
-<p class="text-center"><img class="post__image--full" src="/media/posts/6/moodboards-futures" alt="" width="1415" height="1774"><em>Moodboards</em></p>
+<p class="text-center align-center"><img class="post__image" src="/media/posts/6/64475046_2493169904066982_2855128369563959296_n.jpg" alt="" width="1296" height="1728"> <em>Charlie Delahousse</em></p>
+<p class="text-center align-center"> </p>
+<p class="align-center"><img class="post__image--full" src="/media/posts/6/moodboards-futures" alt="" width="1415" height="1774"><em>Storyboards</em></p>
+<p> </p>
 <p> </p>
 <div class="embed-responsive embed-responsive-18by9">
 <figure class="post__video"><iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/D8h1coWLLew?autoplay=1&amp;loop=1&amp;color=white&amp;modestbranding=1&amp;rel=0&amp;amp" allowfullscreen="allowfullscreen" mute="" autoplay="autoplay" loop="loop" ></iframe></figure>
@@ -188,7 +250,7 @@
 <p> </p>
 <p> </p>
 <p>Afin d'amener une sixième thématique à ce projet, nous avons voulu transformer ces affiches vidéo en des affiches en réalité augmentée, en utilisant le logiciel Unity et le plugin Vuforia.</p>
-<p class="align-center"><em>Ajouter ici la vidéo de demo une fois que l'app Android sera prête</em></p>
+<p class="align-center"><em>[Ajouter ici la vidéo de demo une fois que l'app Android sera prête]</em></p>
 <p> </p>
 <p> </p>
 <p><img class="post__image" src="/media/posts/6/affiches-futures.jpg" alt="" width="1920" height="1295"></p>
@@ -203,7 +265,7 @@
         <link href="/gallica-studio.html"/>
         <id>/gallica-studio.html</id>
 
-        <updated>2019-06-18T01:05:41+02:00</updated>
+        <updated>2019-06-18T10:40:30+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="/media/posts/7/thumb-bnf.jpg" alt="" />

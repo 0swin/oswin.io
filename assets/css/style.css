@@ -69,6 +69,17 @@ a.logo {
     color: var(--text) !important;
     text-decoration: none !important; }
 
+.spacer span {
+  display: none; }
+
+.spacer:after {
+  content: "-";
+  opacity: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 nav {
   height: 100vh;
   margin: 0 !important;
