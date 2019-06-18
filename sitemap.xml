@@ -5,6 +5,18 @@
 <loc>/</loc>
 </url>
 <url>
+<loc>/0swstocks.html</loc>
+<lastmod>2019-06-18T14:31:28+02:00</lastmod>
+<image:image>
+<image:loc>/media/posts/16/thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/16/screenshot.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>/a-propos.html</loc>
 <lastmod>2019-06-06T10:06:18+02:00</lastmod>
 </url>
@@ -106,7 +118,7 @@
 </url>
 <url>
 <loc>/flatland.html</loc>
-<lastmod>2019-06-18T11:25:19+02:00</lastmod>
+<lastmod>2019-06-18T12:40:03+02:00</lastmod>
 <image:image>
 <image:loc>/media/posts/14/thumbnail-flatland-2.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -234,7 +246,7 @@
 </url>
 <url>
 <loc>/notvetica.html</loc>
-<lastmod>2019-06-18T11:35:45+02:00</lastmod>
+<lastmod>2019-06-18T12:49:21+02:00</lastmod>
 <image:image>
 <image:loc>/media/posts/10/thumbnail-notvetica.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>

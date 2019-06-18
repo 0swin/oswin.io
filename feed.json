@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "/0swstocks.html",
+            "url": "/0swstocks.html",
+            "title": "0swStocks",
+            "summary": "0swStocks est un projet open-source, visant à réunir un maximum de sites de ressources gratuites pour les graphistes. 0swStocks est disponible sur ce lien: https://stocks.oswin.io et sur GitHub. ",
+            "content_html": "<p>0swStocks est un projet open-source, visant à réunir un maximum de sites de ressources gratuites pour les graphistes.</p>\n<p>0swStocks est disponible sur ce lien: <a href=\"https://stocks.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">https://stocks.oswin.io</a> et sur <a href=\"https://stocks.oswin.io\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>.</p>\n<p> </p>\n<p> </p>\n<p><img class=\"post__image shadow-lg\" src=\"/media/posts/16/screenshot.jpg\" alt=\"\" width=\"1080\" height=\"1080\"></p>",
+            "image": "/media/posts/16/thumbnail.jpg",
+            "author": {
+                "name": "oswn"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-06-18T12:58:09+02:00",
+            "date_modified": "2019-06-18T14:31:28+02:00"
+        },
+        {
             "id": "/lazy-load-dimages-dans-boostrap.html",
             "url": "/lazy-load-dimages-dans-boostrap.html",
             "title": "Lazy-load d&#x27;images dans boostrap",
@@ -56,7 +71,7 @@
             "url": "/notvetica.html",
             "title": "Notvetica",
             "summary": "La Notvetica est une police d'écriture linéale libre de droit. Mon but est de produire une police avec de nombreux caractères alternatifs. Dans les prochaines versions, j'aimerais la transformer en une&hellip;",
-            "content_html": "<p>La Notvetica est une police d'écriture linéale libre de droit. Mon but est de produire une police avec de nombreux caractères alternatifs.<br>Dans les prochaines versions, j'aimerais la transformer en une \"variable font\", c'est à dire avec des propriétés modifiables par des sliders, permettant par exemple d'avoir une infinité de graisses possibles.</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"/media/posts/10/gallery/notvetica_001.jpg\" ><img src=\"/media/posts/10/gallery/notvetica_001-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"/media/posts/10/gallery/notvetica_003.jpg\" ><img src=\"/media/posts/10/gallery/notvetica_003-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"/media/posts/10/gallery/notvetica_002.jpg\" ><img src=\"/media/posts/10/gallery/notvetica_002-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>\n<p class=\"align-center\"><em>Cliquez sur une miniature pour ouvrir les posters en grand</em></p>",
+            "content_html": "<p>La Notvetica est une police d'écriture linéale libre de droit. Mon but est de produire une police avec de nombreux caractères alternatifs.<br>Dans les prochaines versions, j'aimerais la transformer en une \"variable font\", c'est à dire avec des propriétés modifiables par des sliders, permettant par exemple d'avoir une infinité de graisses possibles.</p>\n<p>La Notvetica et les fichiers source sont disponibles sur <a href=\"https://github.com/0swin/Notvetica\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>.</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"/media/posts/10/gallery/notvetica_001.jpg\" ><img src=\"/media/posts/10/gallery/notvetica_001-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"/media/posts/10/gallery/notvetica_003.jpg\" ><img src=\"/media/posts/10/gallery/notvetica_003-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"/media/posts/10/gallery/notvetica_002.jpg\" ><img src=\"/media/posts/10/gallery/notvetica_002-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>\n<p class=\"align-center\"><em>Cliquez sur une miniature pour ouvrir les posters en grand</em></p>",
             "image": "/media/posts/10/thumbnail-notvetica.jpg",
             "author": {
                 "name": "oswn"
@@ -64,7 +79,7 @@
             "tags": [
             ],
             "date_published": "2019-01-01T00:08:00+01:00",
-            "date_modified": "2019-06-18T11:35:45+02:00"
+            "date_modified": "2019-06-18T12:49:21+02:00"
         },
         {
             "id": "/flatland.html",
@@ -79,7 +94,7 @@
             "tags": [
             ],
             "date_published": "2019-01-01T00:06:00+01:00",
-            "date_modified": "2019-06-18T11:25:19+02:00"
+            "date_modified": "2019-06-18T12:40:03+02:00"
         },
         {
             "id": "/charlie-delahousse.html",
